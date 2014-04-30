@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+
+body{
+
+
+}
+/* SITE STRUCTURE -----------------------------------------------------*/
+header, section, footer{
+    margin: 0 auto;
+    padding: 0 36px;
+    position: relative;
+
+}
+
+/* HEADER INFORMATION -------------------------------------------------*/
+header{
+    background-image: url("images/headerbackground.gif");
+}
+
+nav{
+    background-image: url("images/nav_bkg.gif");
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #ff9600;
+
+}
+input{
+    vertical-align: middle;
+}
+
+/* SECTION CONTENT AREA -----------------------------------------------*/
+section{
+    background: #f2d2aa url("images/section_background.gif");
+}
+
+/* FOOTER -------------------------------------------------------------*/
+footer p {
+    position: absolute; left: 0;
+    width: 100%;
+    padding: 0 36px;
+    background-image: url("images/headerbackground.gif");
+}
