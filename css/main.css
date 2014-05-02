@@ -2,43 +2,296 @@
 @import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 
 body{
-
+    background: #F0F9FF url("images/product-images/page_background.jpg");
 
 }
 /* SITE STRUCTURE -----------------------------------------------------*/
 header, section, footer{
+    width: 960px;
     margin: 0 auto;
-    padding: 0 36px;
+    padding: 0 20px;
     position: relative;
 
 }
 
-/* HEADER INFORMATION -------------------------------------------------*/
-header{
-    background-image: url("images/headerbackground.gif");
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #718C46;
+}
+a:hover{
+    color: #ff9600;
+}
+a:active{
+    color: #3F91BF;
 }
 
+/* HEADER INFORMATION -------------------------------------------------*/
+header{
+    background-image: url("images/product-images/headerbackground.gif");
+}
+
+#headtop{
+    padding-top: 26px;
+    width: 920px;
+    height: 125px;
+}
+
+#logo{
+    width: 536px;
+    margin-left: -10px;
+}
+
+/* TOP RIGHT NAVIGATION INFORMATION -----------------------------------*/
+#topnav{
+    position: relative;top: -85px; left: 600px;
+    width: 306px;
+    height: 70px;
+}
+
+#topnav p{
+    padding-bottom: 10px;
+}
+
+.input{
+    width: 100px;
+    margin-left: 177px;
+    margin-top: -30px;
+}
+
+/* TOP RIGHT NAVIGATION INFORMATION END -------------------------------*/
+
+#search p{
+    position: absolute;
+    margin-left: 150px;
+    padding-left: 20px;
+    border-left-width: 10px;
+    margin-top: 4px;
+}
+
+#welcome{
+    width: 480px;
+    height: 35px;
+    padding-top: 10px;
+    color: #0F403D;
+}
+
+#shoppingcart{
+    position: relative;
+    width: 480px; height: 35px;
+    top: -36px;
+    float: right;
+    text-align: right;
+    color: #0F403D;
+}
+
+#shoppingcart img{
+    height: 5%;
+    width: 5%;
+
+}
+
+input{
+    border: solid 1px #6fadcf;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px #6fadcf;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #F0F9FF),
+            color-stop(1, #9CA2A0)
+    );
+    background-image: -o-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
+    background-image: -moz-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
+    background-image: -webkit-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
+    background-image: -ms-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
+    background-image: linear-gradient(to bottom, #F0F9FF 0%, #9CA2A0 100%);
+    padding: 5px 10px;
+}
+
+/* END HEADER INFORMATION ---------------------------------------------*/
+
+/* BEGIN MAIN NAVIGATION INFORMATION ---------------------------------------*/
 nav{
-    background-image: url("images/nav_bkg.gif");
+    background-image: url("images/product-images/nav_bkg.gif");
+    height: 41px;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #ff9600;
+    text-align: center;
+    width: 960px;
+    margin-left: -20px;
+    text-decoration: no-underline;
 
 }
-input{
-    vertical-align: middle;
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 36px 10px 36px;
+
 }
 
-/* SECTION CONTENT AREA -----------------------------------------------*/
-section{
-    background: #f2d2aa url("images/section_background.gif");
+/* SECTION CONTENT AREA */
+section {
+    background: #f2d2aa url("images/product-images/section_background.gif");
+    width: 960px;
+    height: 643px;
 }
+
+blockquote{
+    font-family: 'Alex Brush', cursive;
+    font-size: 40pt;
+    text-align: center;
+    padding: 55px 0 50px 0;
+    color: #0F403D;
+}
+
+blockquote p{
+    font-size: 10pt;
+    font-family: 'Old Standard TT', serif;
+    float: right;
+    margin: 0 25px 0 -50px;
+    padding-top: 25px;
+}
+
+/* MAIN PAGE CONTENT SECTION INFORMATION -------------------------------*/
+#content{
+    background: #f2d2aa url(images/image_slider/content.jpg);
+    width: 272px;
+    height: 380px;
+    float: right;
+    position: absolute;right: 60px;top: 158px;left: 660px;
+}
+
+#content p{
+    color: #0F403D;
+    font-size: 18pt;
+    padding: 20px 10px 10px 20px;
+}
+
+/* MAIN PAGE CONTENT SECTION INFORMATION END --------------------------*/
+
+/* CUSTOMER FEEDBACK INFORMATION START --------------------------------*/
+
+#feedback h1{
+    font-size: 24pt;
+    color: #0F403D;
+    padding-bottom: 10px;
+}
+
+#feedback p{
+    text-align: left;
+    font-size: 12pt;
+    color: #4B706E;
+    padding-bottom: 10px;
+}
+
+table{
+    border: 1px;
+    position: relative;
+    top: 40px;
+}
+
+table td{
+    font-family: 'Old Standard TT', serif;
+    font-size: 12pt;
+    color: #0F403D;
+    padding-bottom: 10px;
+
+}
+
+td input{
+    margin-left: 20px;
+}
+
+.submit{
+    float: right;
+}
+
+/* ABOUT US PAGE START ------------------------------------------------*/
+#about_us_content, #feedback{
+    margin: 0 auto;
+    font-family: 'Old Standard TT', serif;
+    width: 618px;
+    height: 600px;
+    position: relative;
+    float: right;
+}
+
+#about_us_content h1{
+    font-size: 24pt;
+    color: #0F403D;
+    padding-bottom: 10px;
+}
+
+#about_us_content p{
+    font-size: 14pt;
+    color: #4B706E;
+}
+/* ABOUT US PAGE END ---------------------------------------------------*/
+
+/* PAGE SIDE NAVIGATION START -----------------------------------------*/
+#side_nav{
+    font-family: 'Old Standard TT', serif;
+    padding-top: 50px;
+    width: 260px;
+    height: 512px;
+}
+
+#side_nav h2{
+    font-size: 24px;
+    text-decoration: underline;
+    color: #0F403D;
+    padding-bottom: 30px;
+}
+
+#side_nav br{
+    margin-top: 60px;
+}
+
+#side_nav ul li{
+    color: #4B706E;
+    padding-top: 10px;
+}
+/* PAGE SIDE NAVIGATION END -------------------------------------------*/
+
+/* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/
+#bottom_nav{
+    height: 170px;
+}
+
+#subfooter{
+    background: url("images/contentimages/subfooter.jpg");
+    margin-left: -20px;
+    width: 960px;
+    padding-bottom: 20px;
+
+}
+
+#subfooter ul li{
+    font-size: 12pt;
+    padding: 20px 36px 10px 20px;
+    width: 275px;
+    height: 30px;
+    display: inline-block;
+
+}
+
+/* END SUBFOOTER INFORMATION ------------------------------------------*/
+
 
 /* FOOTER -------------------------------------------------------------*/
+
+
 footer p {
     position: absolute; left: 0;
     width: 100%;
-    padding: 0 36px;
-    background-image: url("images/headerbackground.gif");
+    padding: 10px 36px 10px 36px;
+    text-align: center;
+    color: #718C46;
+    background-image: url("images/product-images/headerbackground.gif");
+    clear: both;
 }
