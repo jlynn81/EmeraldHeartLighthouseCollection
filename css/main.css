@@ -94,7 +94,7 @@ header{
 
 input{
     border: solid 1px #6fadcf;
-    border-radius: 2px;
+    border-radius: 6px;
     box-shadow: 0 1px 3px #6fadcf;
     background-image: -webkit-gradient(
             linear,
@@ -103,12 +103,8 @@ input{
             color-stop(0, #F0F9FF),
             color-stop(1, #9CA2A0)
     );
-    background-image: -o-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
-    background-image: -moz-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
-    background-image: -webkit-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
-    background-image: -ms-linear-gradient(bottom, #F0F9FF 0%, #9CA2A0 100%);
-    background-image: linear-gradient(to bottom, #F0F9FF 0%, #9CA2A0 100%);
-    padding: 5px 10px;
+    opacity: 0.75;
+    padding: 5px;
 }
 
 /* END HEADER INFORMATION ---------------------------------------------*/
@@ -189,22 +185,8 @@ blockquote p{
     padding-bottom: 10px;
 }
 
-table{
-    border: 1px;
-    position: relative;
-    top: 40px;
-}
-
-table td{
-    font-family: 'Old Standard TT', serif;
-    font-size: 12pt;
-    color: #0F403D;
+#feedback div{
     padding-bottom: 10px;
-
-}
-
-td input{
-    margin-left: 20px;
 }
 
 .submit{
