@@ -420,7 +420,7 @@ blockquote p{
 
 /* MAIN PAGE CONTENT SECTION INFORMATION -------------------------------*/
 #content{
-    background: #f2d2aa;
+    background-image: url("images/product-images/nav_bkg.gif");
     width: 272px;
     height: 380px;
     float: right;
