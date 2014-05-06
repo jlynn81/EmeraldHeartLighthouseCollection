@@ -54,7 +54,7 @@ header{
     padding-bottom: 10px;
 }
 
-.input{
+#topnav .input{
     width: 100px;
     margin-left: 210px;
     margin-top: -32px;
@@ -187,6 +187,10 @@ blockquote p{
 
 #feedback div{
     padding-bottom: 10px;
+}
+
+#feedback form{
+
 }
 
 .submit{
