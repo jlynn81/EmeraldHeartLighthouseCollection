@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account_email_information.html" afterPath="$PROJECT_DIR$/account_email_information.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customer_feedback.html" afterPath="$PROJECT_DIR$/customer_feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jlynn81.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jlynn81.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="" />
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +26,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="476" column="1" selection-start="11520" selection-end="11520" vertical-scroll-proportion="0.4660074" vertical-offset="7239" max-vertical-offset="9664">
+            <state line="465" column="19" selection-start="11269" selection-end="11269" vertical-scroll-proportion="0.24845488" vertical-offset="7239" max-vertical-offset="9664">
               <folding />
             </state>
           </provider>
@@ -214,7 +208,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3417" y="-28" width="1382" height="940" extended-state="0" />
+    <frame x="-3417" y="-28" width="1382" height="940" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -433,7 +427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="476" column="1" selection-start="11520" selection-end="11520" vertical-scroll-proportion="0.4660074" vertical-offset="7239" max-vertical-offset="9664">
+        <state line="465" column="19" selection-start="11269" selection-end="11269" vertical-scroll-proportion="0.24845488" vertical-offset="7239" max-vertical-offset="9664">
           <folding />
         </state>
       </provider>
