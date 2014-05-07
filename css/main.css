@@ -16,6 +16,7 @@ header, section, footer{
 
 a:link{
     text-decoration: none;
+    color: #3F91BF;
 }
 a:visited{
     color: #0f403d;
