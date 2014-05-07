@@ -18,7 +18,7 @@ a:link{
     text-decoration: none;
 }
 a:visited{
-    color: #718C46;
+    color: #0f403d;
 }
 a:hover{
     color: #ff9600;
@@ -511,7 +511,7 @@ blockquote p{
 
 /* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/
 #bottom_nav{
-    height: 170px;
+    height: 130px;
 }
 
 #subfooter{
@@ -525,7 +525,7 @@ blockquote p{
 #subfooter ul li{
     font-size: 12pt;
     padding: 20px 36px 10px 20px;
-    width: 275px;
+    width: 300px;
     height: 30px;
     display: inline-block;
 
@@ -543,6 +543,5 @@ footer p {
     padding: 10px 36px 10px 36px;
     text-align: center;
     color: #718C46;
-    background-image: url("images/product-images/headerbackground.gif");
     clear: both;
 }
