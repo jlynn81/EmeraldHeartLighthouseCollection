@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Alex+Brush);
-@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
 
 body{
     background: #F0F9FF url("images/product-images/page_background.jpg");
@@ -31,31 +31,45 @@ a:active{
 /* HEADER INFORMATION -------------------------------------------------*/
 header{
     background-image: url("images/product-images/headerbackground.gif");
-}
-
-#headtop{
     padding-top: 26px;
-    width: 920px;
-    height: 125px;
 }
 
-#logo{
+header h1{
     width: 536px;
-    margin-left: -10px;
+    float: left;
 }
 
-/* TOP RIGHT NAVIGATION INFORMATION -----------------------------------*/
-#topnav{
-    position: relative;top: -85px; left: 600px;
+header > ul{
+    position: relative;top: -36px;
+    width: 480px;
+    float: right;
+    text-align: right;
+    color: #0F403D;
+}
+
+/* TOP RIGHT NAVIGATION INFORMATION ----------------------------------- */
+header form{
     width: 306px;
-    height: 70px;
+    float: right;
 }
 
-#topnav p{
+header form li{
+    display: inline-block;
+
+}
+
+header form li:first-child{
+    border-right: solid #F0F9FF;
+    padding: 0 5px ;
+    border-width: 2px;
+}
+
+
+form p{
     padding-bottom: 10px;
 }
 
-#topnav .input{
+form .input{
     width: 100px;
     margin-left: 210px;
     margin-top: -32px;
@@ -63,15 +77,7 @@ header{
 
 /* TOP RIGHT NAVIGATION INFORMATION END -------------------------------*/
 
-#search p{
-    position: absolute;
-    margin-left: 150px;
-    padding-left: 20px;
-    border-left-width: 10px;
-    margin-top: 4px;
-}
-
-#welcome{
+header p{
     width: 480px;
     height: 35px;
     padding-top: 10px;
@@ -116,7 +122,7 @@ button{
         -webkit-border-radius: 10px; -moz-border-radius: 10px;
     border-radius: 10px;
     font-size:12pt;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Oxygen', sans-serif;
     padding: 5px 10px 5px 10px;
     text-decoration:none;
     display:inline-block;
@@ -146,11 +152,11 @@ button:hover{
 
 /* BEGIN HEADER NAVIGATION INFORMATION ---------------------------------------*/
 #nav {
-    position: relative;top: -10px;
+    clear: both;
+    position: relative;left: -20px;
     height: 44px;
     background-image: url("images/product-images/nav_bkg.gif");
     width: 960px;
-    margin-left: -20px;
     border-color: #ff9600;
     border-width: 1px;
     border-bottom-style: solid;
@@ -181,7 +187,7 @@ button:hover{
 }
 #nav ul li a {
     display: block;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Oxygen', sans-serif;
     text-decoration: none;
 }
 #nav > ul > li > a {
@@ -441,15 +447,16 @@ blockquote{
     font-family: 'Alex Brush', cursive;
     font-size: 40pt;
     text-align: center;
-    padding: 55px 0 50px 0;
+    padding: 20px 0 20px 0;
     color: #0F403D;
+    position: relative;top: 20px;bottom: 20px;
 
 }
 
 blockquote p{
     position: relative;top: 26px; left: -60px;
     font-size: 10pt;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Oxygen', sans-serif;
     float: right;
 }
 
@@ -459,7 +466,7 @@ blockquote p{
     width: 272px;
     height: 380px;
     float: right;
-    position: absolute;right: 60px;top: 158px;left: 665px;
+    position: absolute;right: 60px;top: 147px;left: 665px;
 }
 
 #content p{
@@ -516,7 +523,7 @@ blockquote p{
 /* ABOUT US PAGE START ------------------------------------------------*/
 #about_us_content, #feedback{
     margin: 0 auto;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Oxygen', sans-serif;
     width: 618px;
     height: 600px;
     position: relative;
@@ -537,7 +544,7 @@ blockquote p{
 
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/
 #side_nav{
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Oxygen', sans-serif;
     padding-top: 50px;
     width: 260px;
     height: 512px;
@@ -574,10 +581,10 @@ blockquote p{
 }
 
 #subfooter ul li{
-    font-size: 12pt;
+    font-size: 10pt;
+    font-family: 'Oxygen', sans-serif;
     padding: 20px 36px 10px 20px;
     width: 300px;
-    height: 30px;
     display: inline-block;
 
 }
@@ -589,10 +596,13 @@ blockquote p{
 
 
 footer p {
-    position: absolute; left: 0;
+    position: absolute; top: 20px;
     width: 100%;
     padding: 10px 36px 10px 36px;
     text-align: center;
     color: #718C46;
     clear: both;
+    opacity: .5;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 8pt;
 }

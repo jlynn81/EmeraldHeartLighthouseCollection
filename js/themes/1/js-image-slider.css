@@ -2,7 +2,7 @@
 
 #sliderFrame 
 {
-    position:relative;left: -103px;
+    position:relative;left: -103px;top: 53px;
     width:700px;
     margin:0 auto; /*center-aligned*/
 }
