@@ -477,21 +477,15 @@ blockquote p{
 
 /* MAIN PAGE CONTENT SECTION INFORMATION END --------------------------*/
 
-/* SIGN-UP / REGISTRATION FOR AN ACCOUNT OR EMAIL SIGN-UP -------------*/
+/* EMAIL SIGN-UP ------------------------------------------------------*/
 
-#account_info h1{
+#sign_up h1{
     padding-top: 20px;
+    font: 'Oxygen', sans-serif' 20pt;
+
 }
 
-#sign-in h2{
-    font-size: 18pt;
-    color: #0F403D;
-}
 
-#sign-in p{
-    padding-top: 10px;
-    color: #4B706E;
-}
 
 /* CUSTOMER FEEDBACK INFORMATION START --------------------------------*/
 
