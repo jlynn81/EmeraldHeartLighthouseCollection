@@ -481,7 +481,9 @@ blockquote p{
 
 #sign_up h1{
     padding-top: 20px;
-    font: 'Oxygen', sans-serif' 20pt;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20pt;
+    padding-bottom: 20px;
 
 }
 
@@ -520,7 +522,7 @@ blockquote p{
     font-family: 'Oxygen', sans-serif;
     width: 618px;
     height: 600px;
-    position: relative;top: 20px;
+    position: relative;top: 25px;
     float: right;
 }
 
@@ -531,7 +533,7 @@ blockquote p{
 }
 
 #about_us_content p{
-    font-size: 14pt;
+    font-size: 12pt;
     color: #4B706E;
 }
 /* ABOUT US PAGE END ---------------------------------------------------*/
@@ -570,8 +572,6 @@ blockquote p{
     background: url("images/contentimages/subfooter.jpg");
     margin-left: -20px;
     width: 960px;
-    padding-bottom: 20px;
-
 }
 
 #subfooter ul li{
@@ -592,7 +592,7 @@ blockquote p{
 footer p {
     position: absolute; top: 20px;
     width: 100%;
-    padding: 10px 36px 10px 36px;
+    padding: 0 36px 20px 36px;
     text-align: center;
     color: #718C46;
     clear: both;
