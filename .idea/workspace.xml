@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us.html" afterPath="$PROJECT_DIR$/about_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account_email_information.html" afterPath="$PROJECT_DIR$/account_email_information.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/current_products.html" afterPath="$PROJECT_DIR$/current_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customer_feedback.html" afterPath="$PROJECT_DIR$/customer_feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailpage.html" afterPath="$PROJECT_DIR$/detailpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/themes/1/js-image-slider.css" afterPath="$PROJECT_DIR$/js/themes/1/js-image-slider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping_cart.html" afterPath="$PROJECT_DIR$/shopping_cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_map.html" afterPath="$PROJECT_DIR$/site_map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whats_new.html" afterPath="$PROJECT_DIR$/whats_new.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
@@ -36,6 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="528" column="32" selection-start="12303" selection-end="12303" vertical-scroll-proportion="0.5797101" vertical-offset="8048" max-vertical-offset="9824">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="js-image-slider.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/themes/1/js-image-slider.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_us.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="about_us.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="14" selection-start="768" selection-end="768" vertical-scroll-proportion="0.50526315" vertical-offset="64" max-vertical-offset="2400">
+            <state line="64" column="26" selection-start="2672" selection-end="2812" vertical-scroll-proportion="-15.36" vertical-offset="640" max-vertical-offset="2432">
               <folding />
             </state>
           </provider>
@@ -95,7 +95,6 @@
         <option value="$PROJECT_DIR$/shopping_cart.html" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/js/themes/1/js-image-slider.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/whats_new.html" />
         <option value="$PROJECT_DIR$/themes.html" />
         <option value="$PROJECT_DIR$/site_map.html" />
@@ -104,6 +103,7 @@
         <option value="$PROJECT_DIR$/current_products.html" />
         <option value="$PROJECT_DIR$/account_email_information.html" />
         <option value="$PROJECT_DIR$/about_us.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -158,42 +158,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.324493" vertical-offset="1056" max-vertical-offset="9824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/whats_new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="9" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.44859812" vertical-offset="768" max-vertical-offset="1872">
@@ -546,7 +503,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="768" selection-end="768" vertical-scroll-proportion="0.50526315" vertical-offset="64" max-vertical-offset="2400">
+        <state line="64" column="26" selection-start="2672" selection-end="2812" vertical-scroll-proportion="-15.36" vertical-offset="640" max-vertical-offset="2432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="528" column="32" selection-start="12303" selection-end="12303" vertical-scroll-proportion="0.5797101" vertical-offset="8048" max-vertical-offset="9824">
           <folding />
         </state>
       </provider>

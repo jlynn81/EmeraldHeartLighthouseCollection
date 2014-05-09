@@ -526,7 +526,7 @@ blockquote p{
     font-family: 'Oxygen', sans-serif;
     width: 618px;
     height: 600px;
-    position: relative;
+    position: relative;top: 20px;
     float: right;
 }
 
