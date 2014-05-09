@@ -59,7 +59,7 @@ header form li{
 }
 
 header form li:first-child{
-    border-right: solid #F0F9FF;
+    border-right: solid #F0F0F0;
     padding: 0 5px ;
     border-width: 2px;
 }
@@ -84,20 +84,14 @@ header p{
     color: #0F403D;
 }
 
-#shoppingcart{
-    position: relative;
-    width: 480px; height: 35px;
-    top: -36px;
-    float: right;
-    text-align: right;
-    color: #0F403D;
-}
-
-#shoppingcart img{
-    height: 5%;
-    width: 5%;
-
-}
+/*#shoppingcart{*/
+    /*position: relative;*/
+    /*width: 480px; height: 35px;*/
+    /*top: -36px;*/
+    /*float: right;*/
+    /*text-align: right;*/
+    /*color: #0F403D;*/
+/*}*/
 
 input{
     border: solid 1px #6fadcf;
