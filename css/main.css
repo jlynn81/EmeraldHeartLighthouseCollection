@@ -31,6 +31,7 @@ a:active{
 /* HEADER INFORMATION -------------------------------------------------*/
 header{
     background-image: url("images/product-images/headerbackground.gif");
+    background-size: 75%;
     padding-top: 26px;
 }
 
@@ -83,15 +84,6 @@ header p{
     padding-top: 10px;
     color: #0F403D;
 }
-
-/*#shoppingcart{*/
-    /*position: relative;*/
-    /*width: 480px; height: 35px;*/
-    /*top: -36px;*/
-    /*float: right;*/
-    /*text-align: right;*/
-    /*color: #0F403D;*/
-/*}*/
 
 input{
     border: solid 1px #6fadcf;
@@ -432,7 +424,7 @@ button:hover{
 
 /* SECTION CONTENT AREA */
 section {
-    background: #f2d2aa url("images/product-images/section_background.gif");
+    /*background: #f2d2aa url("images/product-images/section_background.gif");*/
     width: 960px;
     height: 643px;
 }
