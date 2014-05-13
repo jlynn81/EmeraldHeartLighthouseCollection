@@ -7,13 +7,10 @@
     <title>Emerald Heart Lighthouse Collection</title>
 
 <!--    Included Third Party Library and Javascript and CSS-->
-    <script type="text/javascript" src="js/angularJs/angular.min.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <script type="text/javascript" src="js/angularJs/app.js"></script>
-    <script type="text/javascript" src="js/angularJs/emerald_products.js"></script>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
 

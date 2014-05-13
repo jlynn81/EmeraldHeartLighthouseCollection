@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angularJs/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angularJs/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angularJs/emerald_product.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/product-images/HolidayWreath.jpg" afterPath="$PROJECT_DIR$/css/images/product-images/HolidayWreath.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/product-images/nav_bkg.gif" afterPath="$PROJECT_DIR$/css/images/contentimages/nav_bkg.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/angularJs/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/angularJs/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/angularJs/emerald_product.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/current_products.inc" afterPath="$PROJECT_DIR$/views/current_products.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/params.json" afterPath="$PROJECT_DIR$/params.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
@@ -45,7 +42,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="267" selection-end="341" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="1840">
+            <state line="9" column="4" selection-start="267" selection-end="341" vertical-scroll-proportion="23.68" vertical-offset="736" max-vertical-offset="1840">
               <folding />
             </state>
           </provider>
@@ -54,52 +51,7 @@
       <file leaf-file-name="current_products.inc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/current_products.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="12" selection-start="3194" selection-end="3194" vertical-scroll-proportion="0.60879904" vertical-offset="800" max-vertical-offset="2000">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/angularJs/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="53" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="emerald_product.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/angularJs/emerald_product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/contact.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="17" selection-start="1570" selection-end="1570" vertical-scroll-proportion="1.6" vertical-offset="760" max-vertical-offset="1904">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="whats_new.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/whats_new.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="10" selection-start="2048" selection-end="2048" vertical-scroll-proportion="-11.52" vertical-offset="560" max-vertical-offset="1792">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112">
+            <state line="23" column="14" selection-start="746" selection-end="746" vertical-scroll-proportion="0.55172414" vertical-offset="0" max-vertical-offset="1952">
               <folding />
             </state>
           </provider>
@@ -109,9 +61,7 @@
         <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,7 +69,7 @@
       <file leaf-file-name="about_us.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/about_us.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="14" selection-start="1983" selection-end="1983" vertical-scroll-proportion="-5.56" vertical-offset="693" max-vertical-offset="2320">
+            <state line="52" column="14" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="2320">
               <folding />
             </state>
           </provider>
@@ -178,6 +128,9 @@
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/js/emerald_product.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/params.json" />
+        <option value="$PROJECT_DIR$/json.php" />
+        <option value="$PROJECT_DIR$/product.json" />
         <option value="$PROJECT_DIR$/views/current_products.inc" />
       </list>
     </option>
@@ -187,10 +140,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP PHP 5.5.3" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1831" />
-    <option name="y" value="-37" />
+    <option name="x" value="-1797" />
+    <option name="y" value="7" />
     <option name="width" value="1373" />
-    <option name="height" value="1022" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -261,24 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularJs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,8 +310,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1831" y="-37" width="1373" height="1022" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1797" y="7" width="1373" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -384,7 +319,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25694966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26070625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -416,20 +351,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/detailpage.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="1968">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/whats_new.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="3450" selection-end="3450" vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/about_us.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="14" selection-start="4656" selection-end="5298" vertical-scroll-proportion="0.0" vertical-offset="1392" max-vertical-offset="2432">
@@ -662,16 +583,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/contact.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="17" selection-start="1570" selection-end="1570" vertical-scroll-proportion="1.6" vertical-offset="760" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/about_us.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="14" selection-start="1983" selection-end="1983" vertical-scroll-proportion="-5.56" vertical-offset="693" max-vertical-offset="2320">
+        <state line="52" column="14" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="2320">
           <folding />
         </state>
       </provider>
@@ -683,60 +597,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/whats_new.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="10" selection-start="2048" selection-end="2048" vertical-scroll-proportion="-11.52" vertical-offset="560" max-vertical-offset="1792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112">
+        <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.02346041" vertical-offset="0" max-vertical-offset="682">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/angularJs/angular.min.js">
+    <entry file="file://$PROJECT_DIR$/views/whats_new.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
+        <state line="53" column="10" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.19875777" vertical-offset="720" max-vertical-offset="1792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contact.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="17" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.3718141" vertical-offset="472" max-vertical-offset="1904">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="267" selection-end="341" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="1840">
+        <state line="9" column="4" selection-start="267" selection-end="341" vertical-scroll-proportion="23.68" vertical-offset="736" max-vertical-offset="1840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/angularJs/app.js">
+    <entry file="file://$PROJECT_DIR$/params.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="53" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="879">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angularJs/emerald_product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
+        <state line="5" column="1" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.11994003" vertical-offset="0" max-vertical-offset="667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/current_products.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="12" selection-start="3194" selection-end="3194" vertical-scroll-proportion="0.60879904" vertical-offset="800" max-vertical-offset="2000">
+        <state line="23" column="14" selection-start="746" selection-end="746" vertical-scroll-proportion="0.55172414" vertical-offset="0" max-vertical-offset="1952">
           <folding />
         </state>
       </provider>
