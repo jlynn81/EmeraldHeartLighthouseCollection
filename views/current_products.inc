@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="items">
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Emerald Heart Lighthouse Collection</title>
 
-    <!--Included Third Party Library and Javascript and CSS-->
-    <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
+<!--    Included Third Party Library and Javascript and CSS-->
+    <script type="text/javascript" src="js/angularJs/angular.min.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <link href="../js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="../js/themes/1/js-image-slider.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/angularJs/app.js"></script>
+    <script type="text/javascript" src="js/angularJs/emerald_products.js"></script>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
-<body>
+<body ng-controller="emerald_products">
     <header>
 
         <h1><a href="../main.html"><img src="../css/images/contentimages/logo.png"></a></h1>
@@ -80,11 +80,19 @@
             </ul>
         </div>
 
+        <div>
+            <ul ng-repeat="elem in elements | showSome:showedElements">
+                <li>{{elem.name}}</li>
+
+            </ul>
+            <button type="button" ng-click="showMore()">Show More</button>
+
+
+        </div>
+
     </section>
 
-    <section>
 
-    </section>
 
     <section id="bottom_nav">
         <div id="subfooter">

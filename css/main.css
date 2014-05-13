@@ -141,7 +141,7 @@ button:hover{
     clear: both;
     position: relative;left: -20px;
     height: 44px;
-    background-image: url("images/product-images/nav_bkg.gif");
+    background-image: url("images/contentimages/nav_bkg.gif");
     width: 960px;
     border-color: #ff9600;
     border-width: 1px;
@@ -448,7 +448,7 @@ blockquote p{
 
 /* MAIN PAGE CONTENT SECTION INFORMATION -------------------------------*/
 #content{
-    background-image: url("images/product-images/nav_bkg.gif");
+    background-image: url("images/contentimages/nav_bkg.gif");
     width: 272px;
     height: 380px;
     float: right;
