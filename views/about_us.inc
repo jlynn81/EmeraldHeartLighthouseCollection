@@ -21,7 +21,7 @@
 
     <header>
 
-        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../main.html"><img src="../css/images/contentimages/logo.png"></a></h1>
 
         <form>
 
@@ -46,7 +46,7 @@
                 </li>
 
                 <li class='active'><a href='about_us.inc'><span>About Us</span></a></li>
-                <li class="active"><a href="about_us.inc"><span>Contact Us</span></a> </li>
+                <li class="active"><a href="about_us.inc"><span>Contact Information</span></a> </li>
                 <li class='active last'><a href='customer_feedback.inc'><span>Customer Feedback</span></a></li>
 
             </ul>

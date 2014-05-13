@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Emerald Heart Lighthouse Collection</title>
+    <title>Emerald Heart Lighthouse Collection - About Us</title>
 
     <!--Included Third Party Library and Javascript and CSS-->
     <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
@@ -12,14 +12,13 @@
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <link href="../js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="../js/themes/1/js-image-slider.js" type="text/javascript"></script>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
+
 <header>
 
     <h1><a href="../main.html"><img src="../css/images/contentimages/logo.png"></a></h1>
@@ -56,52 +55,60 @@
 
     <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
     <p>Welcome!
-        <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
+        <!--<a href="account_email_information.html"> Sign In</a> or <a href="account_email_information.html"> Create a Account</a> -->
     </p>
 
 </header>
 
-    <section>
+<section>
 
-        <div id="side_nav">
-            <h2>Themes</h2>
-            <ul>
-                <li><a href=""> Nautical</a></li>
-                <li><a href=""> Fantasy</a> </li>
-                <li><a href=""> Whimsical</a> </li>
-                <li><a href=""> Nature</a> </li>
-                <li><a href=""> 5 Elements</a> </li>
-                <li><a href=""> Spiritual</a> </li>
-            </ul>
-            <br>
-            <h2>Current Products</h2>
-            <ul>
-                <li><a href=""> Home Decor</a> </li>
-                <li><a href=""> Books</a> </li>
-            </ul>
-        </div>
+    <div id="contact">
+        <h1>Contact Information</h1>
+    </div>
 
-    </section>
+    <div id="side_nav">
+        <h2>Themes</h2>
+        <ul>
+            <li><a href=""> Nautical</a></li>
+            <li><a href=""> Fantasy</a> </li>
+            <li><a href=""> Whimsical</a> </li>
+            <li><a href=""> Nature</a> </li>
+            <li><a href=""> 5 Elements</a> </li>
+            <li><a href=""> Spiritual</a> </li>
+        </ul>
+        <br>
+        <h2>Current Products</h2>
+        <ul>
+            <li><a href=""> Home Decor</a> </li>
+            <li><a href=""> Books</a> </li>
+        </ul>
+    </div>
 
-    <section id="bottom_nav">
-        <div id="subfooter">
-            <ul>
-                <li><a href="whats_new.inc">What's New</a> </li>
-                <li><a href="customer_feedback.inc">Customer Feedback</a> </li>
-                <li><a href="current_products.inc">Current Products</a> </li>
-                <li><a href="themes.inc">Themes</a> </li>
-                <li><a href="about_us.inc">About Us</a> </li>
-                <li><a href="site_map.inc">Site Map</a> </li>
-                <li>Customer Service: 1-800-123-4567 </li>
-                <li>Orders: 1-800-456-7890</li>
-                <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
-            </ul>
-        </div>
-    </section>
 
-    <footer>
-        <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
-    </footer>
+
+</section>
+
+<section id="bottom_nav">
+    <div id="subfooter">
+        <ul>
+            <li><a href="whats_new.inc">What's New</a> </li>
+            <li><a href="customer_feedback.inc">Customer Feedback</a> </li>
+            <li><a href="current_products.inc">Current Products</a> </li>
+            <li><a href="themes.inc">Themes</a> </li>
+            <li><a href="about_us.inc">About Us</a> </li>
+            <li><a href="site_map.inc">Site Map</a> </li>
+            <li>Customer Service: 1-800-123-4567 </li>
+            <li>Orders: 1-800-456-7890</li>
+            <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+
+    <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
+
+</footer>
 
 </body>
 </html>

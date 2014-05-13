@@ -512,7 +512,7 @@ blockquote p{
     float: right;
 }
 
-#about_us_content h1{
+#about_us_content h1, #contact h1{
     font-size: 24pt;
     color: #0F403D;
     padding-bottom: 10px;
