@@ -8,21 +8,21 @@
 
     <!--Included Third Party Library and Javascript and CSS-->
     <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <link href="js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="js/themes/1/js-image-slider.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="../js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../js/themes/1/js-image-slider.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
     <header>
 
-        <h1><a href="main.inc"><img src="css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
 
         <form>
 
@@ -33,9 +33,11 @@
             <p><input id="search" type="text" /></p><p class="input">Search</p>
 
         </form>
+
         <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
-        <div id='nav'>
+        <nav id='nav'>
             <ul>
+
                 <li class='active'><a href='whats_new.inc'><span>What's New</span></a></li>
                 <li class='active has-sub'><a href='current_products.inc'><span>Current Products</span></a>
                     <ul>
@@ -43,38 +45,27 @@
                         <li class='last'><a href='#'><span>Books</span></a></li>
                     </ul>
                 </li>
-                <li class='has-sub'><a href='#'><span>Themes</span></a>
-                    <ul>
-                        <li><a href='#'><span>Nautical</span></a></li>
-                        <li><a href='#'><span>Fantasy</span></a></li>
-                        <li><a href='#'><span>Whimsical</span></a></li>
-                        <li><a href='#'><span>Nature</span></a></li>
-                        <li><a href='#'><span>5 Elements</span></a></li>
-                        <li class='last'><a href='#'><span>Spiritual</span></a></li>
-                    </ul>
-                </li>
+
                 <li class='active'><a href='about_us.inc'><span>About Us</span></a></li>
+                <li class="active"><a href="about_us.inc"><span>Contact Us</span></a> </li>
                 <li class='active last'><a href='customer_feedback.inc'><span>Customer Feedback</span></a></li>
+
             </ul>
-        </div>
+        </nav>
         <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
         <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-        <div id="welcome">
-            <p>Welcome! <a href="account_email_information.inc">Sign In</a> or <a href="account_email_information.inc">Create a Account</a> </p>
-        </div>
-
-        <div id="shoppingcart">
-            <p><img src="css/images/icons/empty-cart.png" alt="cart"><a href="shopping_cart.inc">Shopping Cart</a> 0 Items | Total $0.00</p>
-        </div>
+        <p>Welcome!
+            <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
+        </p>
 
     </header>
-
+    <!-- --------------------------------- CENTER CONTENT AREA ------------------------------------------ -->
     <section>
+        <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
 
 
     </section>
-
 
     <section id="bottom_nav">
         <div id="subfooter">
@@ -97,6 +88,5 @@
         <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
 
     </footer>
-
 </body>
 </html>

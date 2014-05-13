@@ -8,21 +8,21 @@
 
     <!--Included Third Party Library and Javascript and CSS-->
     <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <link href="js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="js/themes/1/js-image-slider.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="../js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="../js/themes/1/js-image-slider.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
     <header>
 
-        <h1><a href="main.inc"><img src="css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
 
         <form>
 
@@ -33,7 +33,6 @@
             <p><input id="search" type="text" /></p><p class="input">Search</p>
 
         </form>
-
         <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
         <nav id='nav'>
             <ul>
@@ -45,53 +44,31 @@
                         <li class='last'><a href='#'><span>Books</span></a></li>
                     </ul>
                 </li>
-                <li class='has-sub'><a href='#'><span>Themes</span></a>
-                    <ul>
-                        <li><a href='#'><span>Nautical</span></a></li>
-                        <li><a href='#'><span>Fantasy</span></a></li>
-                        <li><a href='#'><span>Whimsical</span></a></li>
-                        <li><a href='#'><span>Nature</span></a></li>
-                        <li><a href='#'><span>5 Elements</span></a></li>
-                        <li class='last'><a href='#'><span>Spiritual</span></a></li>
-                    </ul>
-                </li>
+
                 <li class='active'><a href='about_us.inc'><span>About Us</span></a></li>
+                <li class="active"><a href="about_us.inc"><span>Contact Us</span></a> </li>
                 <li class='active last'><a href='customer_feedback.inc'><span>Customer Feedback</span></a></li>
+
             </ul>
         </nav>
         <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
         <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-        <p>Welcome!
-            <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-        </p>
+        <div id="welcome">
+            <p>Welcome! <a href="account_email_information.inc">Sign In</a> or <a href="account_email_information.inc">Create a Account</a> </p>
+        </div>
+
+        <div id="shoppingcart">
+            <p><img src="../css/images/icons/empty-cart.png" alt="cart"><a href="shopping_cart.inc">Shopping Cart</a> 0 Items | Total $0.00</p>
+        </div>
 
     </header>
 
     <section>
-        <div id="side_nav">
-            <h2>Themes</h2>
-            <ul>
-                <li><a href=""> Nautical</a></li>
-                <li><a href=""> Fantasy</a> </li>
-                <li><a href=""> Whimsical</a> </li>
-                <li><a href=""> Nature</a> </li>
-                <li><a href=""> 5 Elements</a> </li>
-                <li><a href=""> Spiritual</a> </li>
-            </ul>
-            <br>
-            <h2>Current Products</h2>
-            <ul>
-                <li><a href=""> Home Decor</a> </li>
-                <li><a href=""> Books</a> </li>
-            </ul>
-        </div>
+
 
     </section>
 
-    <section>
-
-    </section>
 
     <section id="bottom_nav">
         <div id="subfooter">
