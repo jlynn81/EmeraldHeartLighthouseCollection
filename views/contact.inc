@@ -27,7 +27,7 @@
 
         <ul>
             <li><a href="account_email_information.inc">Email Sign-up</a></li>
-            <li> <a href="">Customer Care</a></li>
+            <li> <a href="contact.inc">Customer Care</a></li>
         </ul>
         <p><input id="search" type="text" /></p><p class="input">Search</p>
 
@@ -46,7 +46,7 @@
             </li>
 
             <li class='active'><a href='about_us.inc'><span>About Us</span></a></li>
-            <li class="active"><a href="about_us.inc"><span>Contact Information</span></a> </li>
+            <li class="active"><a href="contact.inc"><span>Contact Information</span></a> </li>
             <li class='active last'><a href='customer_feedback.inc'><span>Customer Feedback</span></a></li>
 
         </ul>
@@ -63,7 +63,30 @@
 <section>
 
     <div id="contact">
-        <h1>Contact Information</h1>
+        <h1>We would love to hear from you!</h1>
+
+        <p>If you have a question regarding any of our products please do not hesitate to send us a note.
+        We will be glad to answer any questions that you might have regarding any one of our products.  We
+        can be reached via E-mail, Phone, or Address.</p>
+        <p>Live Chat with a representative is coming soon!</p>
+
+
+
+        <form>
+
+            <ul>
+                <li>E-mail: <a href="mailto:emeraldheartlc@gmail.com"> E-mail Us</a></li>
+                <li>Phone: 1-800-XXX-XXXX</li>
+                <li>Address:
+                    <br>Emerald Heart Lighthouse Collect
+                    <br>c/o Customer Service
+                    <br>PO Box 12358
+                    <br>Arkport, N.Y 14807</li>
+            </ul>
+
+        </form>
+
+
     </div>
 
     <div id="side_nav">

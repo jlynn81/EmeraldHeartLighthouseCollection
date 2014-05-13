@@ -503,7 +503,7 @@ blockquote p{
 }
 
 /* ABOUT US PAGE START ------------------------------------------------*/
-#about_us_content, #feedback{
+#about_us_content, #feedback, #contact{
     margin: 0 auto;
     font-family: 'Oxygen', sans-serif;
     width: 618px;
@@ -523,6 +523,23 @@ blockquote p{
     color: #4B706E;
 }
 /* ABOUT US PAGE END ---------------------------------------------------*/
+
+/* CONTACT INFORMATION PAGE --------------------------------------------*/
+
+
+#contact ul li, #contact p{
+    font-size: 14pt;
+    color: #4B706E;
+    padding-bottom: 10px;
+}
+
+#contact > p{
+    padding-top: 20px;
+}
+
+#contact form{
+    padding-top: 20px;
+}
 
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/
 #side_nav{

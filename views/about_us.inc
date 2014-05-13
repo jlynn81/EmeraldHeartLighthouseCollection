@@ -27,7 +27,7 @@
 
             <ul>
                 <li><a href="account_email_information.inc">Email Sign-up</a></li>
-                <li> <a href="">Customer Care</a></li>
+                <li> <a href="contact.inc">Customer Care</a></li>
             </ul>
             <p><input id="search" type="text" /></p><p class="input">Search</p>
 
@@ -46,7 +46,7 @@
                 </li>
 
                 <li class='active'><a href='about_us.inc'><span>About Us</span></a></li>
-                <li class="active"><a href="about_us.inc"><span>Contact Information</span></a> </li>
+                <li class="active"><a href="contact.inc"><span>Contact Information</span></a> </li>
                 <li class='active last'><a href='customer_feedback.inc'><span>Customer Feedback</span></a></li>
 
             </ul>
