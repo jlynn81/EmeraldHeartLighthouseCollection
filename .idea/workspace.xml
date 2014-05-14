@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/productModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/productViewModel.php" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,14 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productModel.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/productModel.php">
+      <file leaf-file-name="productViewModel.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/productViewModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5899705" vertical-offset="0" max-vertical-offset="678">
-              <folding>
-                <marker date="1400036861000" expanded="true" signature="148:170" placeholder="select * fro..Products..." />
-                <marker date="1400036861000" expanded="true" signature="331:379" placeholder="select * fro..product_details..." />
-              </folding>
+            <state line="10" column="26" selection-start="161" selection-end="161" vertical-scroll-proportion="0.2359882" vertical-offset="0" max-vertical-offset="678">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +150,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/models/DB.php" />
         <option value="$PROJECT_DIR$/models/productModel.php" />
+        <option value="$PROJECT_DIR$/models/productViewModel.php" />
       </list>
     </option>
   </component>
@@ -387,13 +384,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/about_us.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="41" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="1653" max-vertical-offset="2320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="62" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="2272">
@@ -693,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="194" selection-end="203" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a9f371b7/93ba7e47-aa28-4c2d-93f5-1a49689264f3/product_database..product_details">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="176">
@@ -714,9 +697,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5899705" vertical-offset="0" max-vertical-offset="678">
           <folding>
-            <marker date="1400036861000" expanded="true" signature="148:170" placeholder="select * fro..Products..." />
-            <marker date="1400036861000" expanded="true" signature="331:379" placeholder="select * fro..product_details..." />
+            <marker date="1400036861000" expanded="true" signature="-1:-1" placeholder="select * fro..Products..." />
+            <marker date="1400036861000" expanded="true" signature="-1:-1" placeholder="select * fro..product_details..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="194" selection-end="203" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/productViewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="161" selection-end="161" vertical-scroll-proportion="0.2359882" vertical-offset="0" max-vertical-offset="678">
+          <folding />
         </state>
       </provider>
     </entry>
