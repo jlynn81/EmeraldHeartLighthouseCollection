@@ -21,7 +21,7 @@
 
 <header>
 
-    <h1><a href="../main.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+    <h1><a href="../index.php"><img src="../css/images/contentimages/logo.png"></a></h1>
 
     <form>
 
@@ -76,12 +76,12 @@
 
             <ul>
                 <li>E-mail: <a href="mailto:emeraldheartlc@gmail.com"> E-mail Us</a></li>
-                <li>Phone: 1-800-XXX-XXXX</li>
+                <li>Phone:<p>1-800-XXX-XXXX</p></li>
                 <li>Address:
-                    <br>Emerald Heart Lighthouse Collect
-                    <br>c/o Customer Service
-                    <br>PO Box 12358
-                    <br>Arkport, N.Y 14807</li>
+                    <p>Emerald Heart Lighthouse Collect</p>
+                    <p>c/o Customer Service</p>
+                    <p>PO Box 12358</p>
+                    <p>Arkport, N.Y 14807</p>
             </ul>
 
         </form>

@@ -535,10 +535,21 @@ blockquote p{
 
 #contact > p{
     padding-top: 20px;
+    font-size: 12pt;
 }
 
 #contact form{
     padding-top: 20px;
+}
+
+#contact form li{
+    font-size: 16pt;
+    padding-top: 10px;
+}
+
+#contact form li p{
+    padding-top: 10px;
+    font-size: 12pt;
 }
 
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/

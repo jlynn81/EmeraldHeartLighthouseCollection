@@ -7,7 +7,6 @@
     <title>Emerald Heart Lighthouse Collection</title>
 
      <!--Included Third Party Library and Javascript and CSS-->
-    <script type="text/javascript" src="js/angularJs/angular.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 
@@ -22,7 +21,7 @@
 <body>
     <header>
 
-            <h1><a href="main.html"><img src="css/images/contentimages/logo.png"></a></h1>
+            <h1><a href="index.php"><img src="css/images/contentimages/logo.png"></a></h1>
 
             <form>
 
