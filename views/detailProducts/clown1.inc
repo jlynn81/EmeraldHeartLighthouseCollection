@@ -6,7 +6,7 @@
 
     <title>Emerald Heart Lighthouse Collection</title>
 
-<!--    Included Third Party Library and Javascript and CSS-->
+    <!--    Included Third Party Library and Javascript and CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <header>
 
         <h1><a href="../main.inc"><img src="../css/images/contentimages/logo.png"></a></h1>
@@ -24,8 +25,8 @@
         <form>
 
             <ul>
-                <li><a href="account_email_information.inc">Email Sign-up</a></li>
-                <li> <a href="contact.inc">Customer Care</a></li>
+                <li><a href="../account_email_information.inc">Email Sign-up</a></li>
+                <li> <a href="../contact.inc">Customer Care</a></li>
             </ul>
             <p><input id="search" type="text" /></p><p class="input">Search</p>
 
@@ -35,17 +36,17 @@
         <nav id='nav'>
             <ul>
 
-                <li class='active'><a href='whats_new.inc'><span>What's New</span></a></li>
-                <li class='active has-sub'><a href='current_products.inc'><span>Current Products</span></a>
+                <li class='active'><a href='../whats_new.inc'><span>What's New</span></a></li>
+                <li class='active has-sub'><a href='../current_products.inc'><span>Current Products</span></a>
                     <ul>
                         <li><a href='#'><span>Home Decor</span></a></li>
                         <li class='last'><a href='#'><span>Books</span></a></li>
                     </ul>
                 </li>
 
-                <li class='active'><a href='about_us.inc'><span>About Us</span></a></li>
-                <li class="active"><a href="contact.inc"><span>Contact Information</span></a> </li>
-                <li class='active last'><a href='customer_feedback.inc'><span>Customer Feedback</span></a></li>
+                <li class='active'><a href='../about_us.inc'><span>About Us</span></a></li>
+                <li class="active"><a href="../contact.inc"><span>Contact Information</span></a> </li>
+                <li class='active last'><a href='../customer_feedback.inc'><span>Customer Feedback</span></a></li>
 
             </ul>
         </nav>
@@ -60,53 +61,6 @@
 
     <section>
 
-        <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
-
-        <div class="item_list">
-            <div class="item">
-                <a href="detailProducts/mysticalCarousel.inc">
-                    <img src="../css/images/product-images/unicorn1.jpg">
-                    <p id="product_name">Mystical Carousel Unicorn</p>
-                    <p id="product_amount">$40.00</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="detailProducts/clown1.inc">
-                    <img src="../css/images/product-images/clown1.jpg">
-                    <p id="product_name">Star Clown</p>
-                    <p id="product_amount">$15.00</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="detailProducts/holidaywreath.inc">
-                    <img src="../css/images/product-images/HolidayWreath.jpg">
-                    <p id="product_name">Holiday Wreath</p>
-                    <p id="product_amount">$50.00</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="detailProducts/waterlighthouse.inc">
-                    <img src="../css/images/product-images/waterlighthouse.jpg">
-                    <p id="product_name">Lighthouse Hurricane Statue</p>
-                    <p id="product_amount">$175.00</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="detailProducts/underwaterdream.inc">
-                    <img src="../css/images/product-images/underwaterdream.jpg">
-                    <p id="product_name">Under Water Dream</p>
-                    <p id="product_amount">$150.00</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="detailProducts/maskofdreams.inc">
-                    <img src="../css/images/product-images/mask.jpg">
-                    <p id="product_name">Mystical Mask of Dreams</p>
-                    <p id="product_amount">$200.00</p>
-                </a>
-            </div>
-
-        </div>
 
         <div id="side_nav">
             <h2>Themes</h2>
@@ -127,8 +81,6 @@
         </div>
 
     </section>
-
-
 
     <section id="bottom_nav">
         <div id="subfooter">
@@ -154,6 +106,7 @@
         <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
 
     </footer>
+
 
 </body>
 </html>
