@@ -1141,12 +1141,19 @@
       <column name="PROCESSLIST_ID" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="NAME" sqlType="VARCHAR" length="128" precision="0" nullable="false" jdbcType="12"/>
     </table>
+    <table name="Products" schema="" catalog="product_database" type="TABLE">
+      <column name="item" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="product_name" sqlType="VARCHAR" length="250" precision="0" nullable="false" jdbcType="12"/>
+      <column name="product_description" sqlType="VARCHAR" length="250" precision="0" nullable="false" jdbcType="12"/>
+      <column name="product_amount" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="artist_designer" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="item"/>
+    </table>
     <table name="product_details" schema="" catalog="product_database" type="TABLE">
-      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="Product Name" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="Description" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="Price" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="Image" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="item" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="Product Name" sqlType="VARCHAR" length="250" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="Description" sqlType="VARCHAR" length="250" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="Price" sqlType="DECIMAL" length="11" precision="0" nullable="false" jdbcType="3"/>
     </table>
   </data-source>
 </component>
