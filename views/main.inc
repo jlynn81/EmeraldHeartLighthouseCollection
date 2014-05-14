@@ -6,8 +6,7 @@
 
     <title>Emerald Heart Lighthouse Collection</title>
 
-    <!--Included Third Party Library and Javascript and CSS-->
-    <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
+     <!--Included Third Party Library and Javascript and CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
@@ -22,19 +21,19 @@
 <body>
     <header>
 
-        <h1><a href="main.inc"><img src="../css/images/contentimages/logo.png"></a></h1>
+            <h1><a href="main.inc"><img src="../css/images/contentimages/logo.png"></a></h1>
 
-        <form>
+            <form>
 
-            <ul>
-                <li><a href="account_email_information.inc">Email Sign-up</a></li>
-                <li> <a href="">Customer Care</a></li>
-            </ul>
-            <p><input id="search" type="text" /></p><p class="input">Search</p>
+                <ul>
+                    <li><a href="account_email_information.inc">Email Sign-up</a></li>
+                    <li> <a href="contact.inc">Customer Care</a></li>
+                </ul>
+                <p><input id="search" type="text" /></p><p class="input">Search</p>
 
-        </form>
+            </form>
 
-        <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+<!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
         <nav id='nav'>
             <ul>
 
@@ -52,7 +51,7 @@
 
             </ul>
         </nav>
-        <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+<!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
         <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
         <p>Welcome!
@@ -60,8 +59,30 @@
         </p>
 
     </header>
-
+<!-- --------------------------------- CENTER CONTENT AREA ------------------------------------------ -->
     <section>
+        <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
+
+        <div id="product_images">
+            <div id="sliderFrame">
+                <div id="slider">
+                    <a href=""> <img src="../css/images/image_slider/unicorn.jpg" alt="Mystical Carousel Unicorn" /></a>
+                    <a href=""> <img src="../css/images/image_slider/starclown.jpg" alt="Clown"/></a>
+                    <a href=""> <img src="../css/images/image_slider/holidaywreath.jpg" alt="Holiday Wreath"/></a>
+                    <a href=""> <img src="../css/images/image_slider/seashellwreath.jpg" alt="Sea Shell Wreath"/></a>
+                    <a href=""> <img src="../css/images/product-images/underwaterdream.jpg" alt="Underwater Dream" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <p>Find that one of a kind gift for that someone special!</p>
+            <br>
+            <p>Discover the array of original, and unique gifts that are sure to spark the imagination of
+                the soul and touch the depths of the Heart!</p>
+
+        </div>
 
     </section>
 
@@ -82,10 +103,7 @@
     </section>
 
     <footer>
-
         <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
-
     </footer>
-
 </body>
 </html>

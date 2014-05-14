@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jlynn81
- * Date: 5/5/14
- * Time: 8:05 PM
- */
-
-namespace models;
 
 
 class DB {

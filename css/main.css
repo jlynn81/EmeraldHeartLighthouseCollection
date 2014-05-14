@@ -519,8 +519,9 @@ blockquote p{
 }
 
 #about_us_content p{
-    font-size: 10pt;
+    font-size: 12pt;
     color: #4B706E;
+    padding-top: .5%;
 }
 /* ABOUT US PAGE END ---------------------------------------------------*/
 
