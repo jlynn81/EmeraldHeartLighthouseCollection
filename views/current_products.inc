@@ -19,7 +19,7 @@
 <body ng-controller="emerald_products">
     <header>
 
-        <h1><a href="main.inc"><img src="../css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../main.inc"><img src="../css/images/contentimages/logo.png"></a></h1>
 
         <form>
 
@@ -59,6 +59,55 @@
     </header>
 
     <section>
+
+        <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
+
+        <div class="item_list">
+            <div class="item">
+                <a href="">
+                    <img src="../css/images/product-images/unicorn1.jpg">
+                    <p id="product_name">Mystical Carousel Unicorn</p>
+                    <p id="product_amount">$40.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <img src="../css/images/product-images/clown1.jpg">
+                    <p id="product_name">Star Clown</p>
+                    <p id="product_amount">$15.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <img src="../css/images/product-images/HolidayWreath.jpg">
+                    <p id="product_name">Holiday Wreath</p>
+                    <p id="product_amount">$50.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <img src="../css/images/product-images/waterlighthouse.jpg">
+                    <p id="product_name">Lighthouse Hurricane Statue</p>
+                    <p id="product_amount">$175.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <img src="../css/images/product-images/underwaterdream.jpg">
+                    <p id="product_name">Under Water Dream</p>
+                    <p id="product_amount">$150.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <img src="../css/images/product-images/mask.jpg">
+                    <p id="product_name">Mystical Mask of Dreams</p>
+                    <p id="product_amount">$200.00</p>
+                </a>
+            </div>
+
+        </div>
+
         <div id="side_nav">
             <h2>Themes</h2>
             <ul>
@@ -75,16 +124,6 @@
                 <li><a href=""> Home Decor</a> </li>
                 <li><a href=""> Books</a> </li>
             </ul>
-        </div>
-
-        <div>
-            <ul ng-repeat="elem in elements | showSome:showedElements">
-                <li>{{elem.name}}</li>
-
-            </ul>
-            <button type="button" ng-click="showMore()">Show More</button>
-
-
         </div>
 
     </section>
@@ -106,6 +145,9 @@
             </ul>
         </div>
     </section>
+
+    <script type="text/javascript" src="../javascripts/main.js"></script>
+    <script type="text/javascript" src="../javascripts/productInfo.js"></script>
 
     <footer>
 

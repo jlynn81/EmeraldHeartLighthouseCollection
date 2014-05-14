@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
 
 body{
-    background: #F0F9FF url("images/product-images/page_background.jpg");
+    background: #F0F9FF url("images/contentimages/page_background.jpg");
 
 }
 /* SITE STRUCTURE -----------------------------------------------------*/
@@ -30,7 +30,7 @@ a:active{
 
 /* HEADER INFORMATION -------------------------------------------------*/
 header{
-    background-image: url("images/product-images/headerbackground.gif");
+    background-image: url("images/contentimages/headerbackground.gif");
     background-size: 75%;
     padding-top: 26px;
 }
@@ -553,11 +553,50 @@ blockquote p{
     font-size: 12pt;
 }
 
+/* CURRENT PRODUCTS, WHAT'S NEW PAGE INFORMATION ----------------------*/
+
+.item{
+    float: right;
+    font-family: 'Oxygen',sans-serif;
+    height: auto;
+    left: -90px;
+    margin: 0 auto;
+    padding-right: 20px;
+
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+    width: auto;
+}
+
+.item_list{
+    display: inline-block;
+    float: right;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 10pt;
+    position: relative;
+    right: -100px;
+    width: 675px;
+}
+
+.item img{
+   max-width: 15em;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.item p{
+    padding-bottom: 5px;
+}
+
+#product_amount{
+}
+
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/
 #side_nav{
     font-family: 'Oxygen', sans-serif;
     padding-top: 50px;
-    width: 260px;
+    width: 245px;
     height: 512px;
 }
 
