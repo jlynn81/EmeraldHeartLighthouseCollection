@@ -102,9 +102,9 @@
     <script type="text/javascript" src="../javascripts/productInfo.js"></script>
 
     <footer>
-
-        <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
-
+        <p>All Rights</p>
+        <p>&copy; April 2014</p>
+        <p>Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
     </footer>
 
 

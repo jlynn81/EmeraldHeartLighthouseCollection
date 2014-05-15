@@ -63,6 +63,54 @@
 
     <section>
 
+        <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
+
+        <div class="item_list">
+            <div class="item">
+                <a href="detailProducts/mysticalCarousel.inc">
+                    <img src="../css/images/product-images/unicorn1.jpg">
+                    <p id="product_name">Mystical Carousel Unicorn</p>
+                    <p id="product_amount">$40.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="detailProducts/clown1.inc">
+                    <img src="../css/images/product-images/clown1.jpg">
+                    <p id="product_name">Star Clown</p>
+                    <p id="product_amount">$15.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="detailProducts/holidaywreath.inc">
+                    <img src="../css/images/product-images/HolidayWreath.jpg">
+                    <p id="product_name">Holiday Wreath</p>
+                    <p id="product_amount">$50.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="detailProducts/waterlighthouse.inc">
+                    <img src="../css/images/product-images/waterlighthouse.jpg">
+                    <p id="product_name">Lighthouse Hurricane Statue</p>
+                    <p id="product_amount">$175.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="detailProducts/underwaterdream.inc">
+                    <img src="../css/images/product-images/underwaterdream.jpg">
+                    <p id="product_name">Under Water Dream</p>
+                    <p id="product_amount">$150.00</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="detailProducts/maskofdreams.inc">
+                    <img src="../css/images/product-images/mask.jpg">
+                    <p id="product_name">Mystical Mask of Dreams</p>
+                    <p id="product_amount">$200.00</p>
+                </a>
+            </div>
+
+        </div>
+
         <div id="side_nav">
             <h2>Themes</h2>
             <ul>
@@ -100,7 +148,9 @@
     </section>
 
     <footer>
-        <p>All Rights | Copyright April 2014 | Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
+        <p>All Rights</p>
+        <p>&copy; April 2014</p>
+        <p>Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
     </footer>
 
 </body>

@@ -642,15 +642,17 @@ blockquote p{
 
 /* FOOTER -------------------------------------------------------------*/
 
-
-footer p {
-    position: absolute; top: 20px;
+footer{
+    position: relative; top: 20px;
     width: 100%;
+    clear: both;
     padding: 0 36px 20px 36px;
     text-align: center;
     color: #718C46;
-    clear: both;
     opacity: .5;
     font-family: 'Oxygen', sans-serif;
     font-size: 8pt;
+}
+footer p {
+   display: inline;
 }
