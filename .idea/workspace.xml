@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/DB.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/productModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/productViewModel.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.inc" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about_us.inc" afterPath="$PROJECT_DIR$/views/about_us.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/account_email_information.inc" afterPath="$PROJECT_DIR$/views/account_email_information.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detailProducts/clown1.inc" afterPath="$PROJECT_DIR$/views/detailProducts/clown1.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.inc" afterPath="$PROJECT_DIR$/views/contact.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/current_products.inc" afterPath="$PROJECT_DIR$/views/current_products.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/customer_feedback.inc" afterPath="$PROJECT_DIR$/views/customer_feedback.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detailProducts/holidaywreath.inc" afterPath="$PROJECT_DIR$/views/detailProducts/holidaywreath.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detailProducts/maskofdreams.inc" afterPath="$PROJECT_DIR$/views/detailProducts/maskofdreams.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detailProducts/mysticalCarousel.inc" afterPath="$PROJECT_DIR$/views/detailProducts/mysticalCarousel.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/product_details.php" afterPath="$PROJECT_DIR$/views/product_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shopping_cart.inc" afterPath="$PROJECT_DIR$/views/shopping_cart.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/site_map.inc" afterPath="$PROJECT_DIR$/views/site_map.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/themes.inc" afterPath="$PROJECT_DIR$/views/themes.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detailProducts/underwaterdream.inc" afterPath="$PROJECT_DIR$/views/detailProducts/underwaterdream.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/detailProducts/waterlighthouse.inc" afterPath="$PROJECT_DIR$/views/detailProducts/waterlighthouse.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/whats_new.inc" afterPath="$PROJECT_DIR$/views/whats_new.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
@@ -82,11 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer_feedback.inc" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="customer_feedback.inc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/customer_feedback.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="13" selection-start="11657" selection-end="11657" vertical-scroll-proportion="-76.96" vertical-offset="1644" max-vertical-offset="3712">
-              <folding />
+            <state line="180" column="110" selection-start="10092" selection-end="10174" vertical-scroll-proportion="2.7888198" vertical-offset="1084" max-vertical-offset="3792">
+              <folding>
+                <marker date="1400125261000" expanded="true" signature="1634:1671" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,15 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="7" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.84006214" vertical-offset="1219" max-vertical-offset="1888">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -149,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/site_map.html" />
         <option value="$PROJECT_DIR$/customer_feedback.html" />
         <option value="$PROJECT_DIR$/current_products.html" />
         <option value="$PROJECT_DIR$/account_email_information.html" />
@@ -195,22 +168,20 @@
         <option value="$PROJECT_DIR$/views/account_email_information.inc" />
         <option value="$PROJECT_DIR$/views/contact.inc" />
         <option value="$PROJECT_DIR$/views/current_products.inc" />
-        <option value="$PROJECT_DIR$/views/customer_feedback.inc" />
         <option value="$PROJECT_DIR$/views/product_details.php" />
         <option value="$PROJECT_DIR$/views/shopping_cart.inc" />
         <option value="$PROJECT_DIR$/views/site_map.inc" />
         <option value="$PROJECT_DIR$/views/themes.inc" />
+        <option value="$PROJECT_DIR$/views/customer_feedback.inc" />
+        <option value="$PROJECT_DIR$/views/mail.php" />
       </list>
     </option>
   </component>
-  <component name="PhpTemplates">
-    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP PHP 5.5.3" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1574" />
+    <option name="x" value="-1900" />
     <option name="y" value="-25" />
-    <option name="width" value="1440" />
+    <option name="width" value="1766" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -410,12 +381,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1574" y="-25" width="1440" height="823" extended-state="6" />
+    <frame x="-1900" y="-25" width="1766" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20028612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16241299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -424,7 +395,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19170243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15545243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -701,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer_feedback.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="13" selection-start="11657" selection-end="11657" vertical-scroll-proportion="-76.96" vertical-offset="1644" max-vertical-offset="3712">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/product_details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="13" selection-start="4106" selection-end="4106" vertical-scroll-proportion="-20.0" vertical-offset="1212" max-vertical-offset="1856">
@@ -745,8 +709,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="7" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.84006214" vertical-offset="1219" max-vertical-offset="1888">
+        <state line="110" column="7" selection-start="4727" selection-end="4727" vertical-scroll-proportion="-21.64" vertical-offset="1219" max-vertical-offset="1888">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="298" selection-end="298" vertical-scroll-proportion="0.31659058" vertical-offset="0" max-vertical-offset="657">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer_feedback.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="110" selection-start="10092" selection-end="10174" vertical-scroll-proportion="2.7888198" vertical-offset="1084" max-vertical-offset="3792">
+          <folding>
+            <marker date="1400125261000" expanded="true" signature="1634:1671" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

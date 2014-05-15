@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -69,7 +74,7 @@
             </p>
 
 
-            <form action="" method="post">
+            <form action="" method="post" action="mail.php">
                 <div class="row_requiredRow">
                     <label for="txt_FirstName" id="FirstName-ariaLabel">First Name</label>
                     <input id="txt_FirstName" name="txt_FirstName" type="text" aria-labelledby="FirstName-ariaLabel" class="required" title="First Name. This is a required field">
@@ -173,7 +178,7 @@
                     <input id="txt_Comments" name="txt_Comments" type="text" aria-labelledby="Comments-ariaLabel">
                 </div>
                 <div class="row">
-                    <button onclick="alert('Your Form was submitted successfully! Thank you for your input!')" type="button">Submit Form </button>
+                    <button onclick="alert('Your Form was submitted successfully! Thank you for your input!')" type="button">Submit Form</button>
                 </div>
             </form>
 
