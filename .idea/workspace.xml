@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/site_map.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/themes.inc" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about_us.inc" afterPath="$PROJECT_DIR$/views/about_us.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/clown1.inc" afterPath="$PROJECT_DIR$/detailProducts/clown1.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.inc" afterPath="$PROJECT_DIR$/views/contact.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/current_products.inc" afterPath="$PROJECT_DIR$/views/current_products.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/customer_feedback.inc" afterPath="$PROJECT_DIR$/views/customer_feedback.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/contentimages/email.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/email_signup_page.inc" afterPath="$PROJECT_DIR$/views/email_signup_page.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/holidaywreath.inc" afterPath="$PROJECT_DIR$/detailProducts/holidaywreath.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/maskofdreams.inc" afterPath="$PROJECT_DIR$/detailProducts/maskofdreams.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/mysticalCarousel.inc" afterPath="$PROJECT_DIR$/detailProducts/mysticalCarousel.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/product_details.php" afterPath="$PROJECT_DIR$/views/product_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shopping_cart.inc" afterPath="$PROJECT_DIR$/views/shopping_cart.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/underwaterdream.inc" afterPath="$PROJECT_DIR$/detailProducts/underwaterdream.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/waterlighthouse.inc" afterPath="$PROJECT_DIR$/detailProducts/waterlighthouse.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/whats_new.inc" afterPath="$PROJECT_DIR$/views/whats_new.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
@@ -42,91 +28,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mysticalCarousel.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detailProducts/mysticalCarousel.inc">
+      <file leaf-file-name="email_signup_page.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/email_signup_page.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="13" selection-start="3306" selection-end="3306" vertical-scroll-proportion="-22.24" vertical-offset="916" max-vertical-offset="1808">
+            <state line="72" column="34" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-19.04" vertical-offset="676" max-vertical-offset="1776">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maskofdreams.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detailProducts/maskofdreams.inc">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="13" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-22.24" vertical-offset="916" max-vertical-offset="1808">
+            <state line="119" column="21" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0" vertical-offset="1236" max-vertical-offset="2176">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="current_products.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/current_products.inc">
+      <file leaf-file-name="productInfo.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascripts/productInfo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="17" selection-start="5591" selection-end="5591" vertical-scroll-proportion="-23.88" vertical-offset="1643" max-vertical-offset="2560">
+            <state line="12" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.20425531" vertical-offset="0" max-vertical-offset="940">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="holidaywreath.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detailProducts/holidaywreath.inc">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="13" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-22.24" vertical-offset="916" max-vertical-offset="1808">
+            <state line="656" column="23" selection-start="14647" selection-end="14647" vertical-scroll-proportion="0.0" vertical-offset="9857" max-vertical-offset="10800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clown1.inc" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detailProducts/clown1.inc">
+      <file leaf-file-name="customer_feedback.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/customer_feedback.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="14" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.6412556" vertical-offset="916" max-vertical-offset="1808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/contact.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="13" selection-start="4171" selection-end="4171" vertical-scroll-proportion="-24.8" vertical-offset="1316" max-vertical-offset="2208">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_us.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/about_us.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="17" selection-start="5395" selection-end="5395" vertical-scroll-proportion="-24.8" vertical-offset="1364" max-vertical-offset="2256">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waterlighthouse.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="13" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-22.24" vertical-offset="916" max-vertical-offset="1808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="underwaterdream.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detailProducts/underwaterdream.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="13" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-22.24" vertical-offset="916" max-vertical-offset="1808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_details.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/product_details.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="17" selection-start="3708" selection-end="3708" vertical-scroll-proportion="-24.8" vertical-offset="900" max-vertical-offset="1792">
+            <state line="179" column="110" selection-start="10085" selection-end="10167" vertical-scroll-proportion="-10.84" vertical-offset="2593" max-vertical-offset="3728">
               <folding />
             </state>
           </provider>
@@ -169,7 +110,6 @@
         <option value="$PROJECT_DIR$/javascripts/main.js" />
         <option value="$PROJECT_DIR$/footer.inc" />
         <option value="$PROJECT_DIR$/views/footer.inc" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/views/detailProducts/clown1.inc" />
         <option value="$PROJECT_DIR$/views/detailProducts/holidaywreath.inc" />
         <option value="$PROJECT_DIR$/views/detailProducts/maskofdreams.inc" />
@@ -187,7 +127,6 @@
         <option value="$PROJECT_DIR$/views/current_products.inc" />
         <option value="$PROJECT_DIR$/views/shopping_cart.inc" />
         <option value="$PROJECT_DIR$/views/product_details.php" />
-        <option value="$PROJECT_DIR$/views/email_signup_page.inc" />
         <option value="$PROJECT_DIR$/views/customer_feedback.inc" />
         <option value="$PROJECT_DIR$/views/contact.inc" />
         <option value="$PROJECT_DIR$/views/about_us.inc" />
@@ -196,6 +135,8 @@
         <option value="$PROJECT_DIR$/detailProducts/mysticalCarousel.inc" />
         <option value="$PROJECT_DIR$/detailProducts/maskofdreams.inc" />
         <option value="$PROJECT_DIR$/detailProducts/holidaywreath.inc" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/views/email_signup_page.inc" />
       </list>
     </option>
   </component>
@@ -293,34 +234,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detailProducts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -342,10 +255,10 @@
       <recent name="$PROJECT_DIR$/js/themes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/images/contentimages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/css/images/product-images" />
-      <recent name="$PROJECT_DIR$/css/images/contentimages" />
       <recent name="$PROJECT_DIR$/js/angularJs" />
     </key>
   </component>
@@ -400,7 +313,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-42" width="1920" height="1058" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -408,7 +321,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16240682" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -606,23 +519,6 @@
         <state line="30" column="42" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-2.8753624" vertical-offset="2400" max-vertical-offset="31248" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="21" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/productInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="625" column="58" selection-start="14078" selection-end="14078" vertical-scroll-proportion="0.0" vertical-offset="9939" max-vertical-offset="10624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="2" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2273224" vertical-offset="0" max-vertical-offset="915">
@@ -654,27 +550,6 @@
     <entry file="file://$PROJECT_DIR$/views/product_details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="17" selection-start="3708" selection-end="3708" vertical-scroll-proportion="-24.8" vertical-offset="900" max-vertical-offset="1792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/email_signup_page.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="17" selection-start="3803" selection-end="3803" vertical-scroll-proportion="-24.8" vertical-offset="868" max-vertical-offset="1760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer_feedback.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="17" selection-start="11288" selection-end="11288" vertical-scroll-proportion="-24.28" vertical-offset="2849" max-vertical-offset="3728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/current_products.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="17" selection-start="5591" selection-end="5591" vertical-scroll-proportion="-23.88" vertical-offset="1643" max-vertical-offset="2560">
           <folding />
         </state>
       </provider>
@@ -721,16 +596,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detailProducts/holidaywreath.inc">
+    <entry file="file://$PROJECT_DIR$/detailProducts/clown1.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="13" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-22.24" vertical-offset="916" max-vertical-offset="1808">
+        <state line="93" column="14" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.6502732" vertical-offset="893" max-vertical-offset="1808">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detailProducts/clown1.inc">
+    <entry file="file://$PROJECT_DIR$/detailProducts/holidaywreath.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="14" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.6412556" vertical-offset="916" max-vertical-offset="1808">
+        <state line="92" column="13" selection-start="3305" selection-end="3305" vertical-scroll-proportion="0.63278687" vertical-offset="893" max-vertical-offset="1808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/current_products.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="17" selection-start="5591" selection-end="5591" vertical-scroll-proportion="0.652459" vertical-offset="1643" max-vertical-offset="2560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="656" column="23" selection-start="14647" selection-end="14647" vertical-scroll-proportion="0.0" vertical-offset="9857" max-vertical-offset="10800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer_feedback.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="110" selection-start="10085" selection-end="10167" vertical-scroll-proportion="-10.84" vertical-offset="2593" max-vertical-offset="3728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/email_signup_page.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="34" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-19.04" vertical-offset="676" max-vertical-offset="1776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="21" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/productInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.20425531" vertical-offset="0" max-vertical-offset="940">
           <folding />
         </state>
       </provider>

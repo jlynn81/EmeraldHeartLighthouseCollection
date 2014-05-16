@@ -64,18 +64,19 @@
 
     <section id="sign_up">
 
+        <p><img src="../css/images/contentimages/email.png" </p>
+
         <h1> Email </h1>
 
         <h2> Email Sign-up</h2>
 
-            <form action="?action=checkemail" method="post">
+            <form name="email_form" action="?action=checkemail" method="post">
                 <input type="text" name="first_name" placeholder="First Name"/>
                 <input type="text" name="last_name" placeholder="Last Name"/>
                 <input type="text" name="email" placeholder="E-mail Address"/>
                 <input type="text" name="confirm_email" placeholder="Confirm E-mail Address"/>
-                <p>Press Submit to Sign-up for email alerts</p>
-                <input class="button" type="submit" value="Submit"/>
-
+                <p>Press Submit to Sign-up for the monthly Newsletter</p>
+                <button onclick="alert('Your email address was submitted successfully!')" type="submit" value="Submit" class="button">Submit</button>
             </form>
 
 
