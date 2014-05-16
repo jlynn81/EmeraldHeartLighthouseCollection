@@ -20,7 +20,7 @@
 
 <header>
 
-    <h1><a href="../index.php"><img src="../css/images/contentimages/logo.png"></a></h1>
+    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
     <form>
 
         <ul>
@@ -86,10 +86,7 @@
         <ul>
             <li><a href="../views/whats_new.inc">What's New</a> </li>
             <li><a href="../views/customer_feedback.inc">Customer Feedback</a> </li>
-            <li><a href="../views/current_products.inc">Current Products</a> </li>
-            <li><a href="../views/themes.inc">Themes</a> </li>
             <li><a href="../views/about_us.inc">About Us</a> </li>
-            <li><a href="../views/site_map.inc">Site Map</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>
             <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
