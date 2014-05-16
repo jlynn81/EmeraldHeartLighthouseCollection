@@ -21,7 +21,7 @@
 <body>
     <header>
 
-            <h1><a href="main.inc"><img src="css/images/contentimages/logo.png"></a></h1>
+            <h1><a href="index.php"><img src="css/images/contentimages/logo.png"></a></h1>
 
             <form>
 
