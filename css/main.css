@@ -429,6 +429,12 @@ section {
     height: 643px;
 }
 
+.image img{
+    width: 30%;
+    float: left;
+    padding-right: 20px;padding-top: 20px;
+}
+
 blockquote{
     font-family: 'Alex Brush', cursive;
     font-size: 40pt;
@@ -600,8 +606,6 @@ blockquote p{
     padding-bottom: 5px;
 }
 
-#product_amount{
-}
 
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/
 #side_nav{
