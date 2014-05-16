@@ -67,42 +67,42 @@
 
         <div class="item_list">
             <div class="item">
-                <a href="detailProducts/mysticalCarousel.inc">
+                <a href="../detailProducts/mysticalCarousel.inc">
                     <img src="../css/images/product-images/unicorn1.jpg">
                     <p id="product_name">Mystical Carousel Unicorn</p>
                     <p id="product_amount">$40.00</p>
                 </a>
             </div>
             <div class="item">
-                <a href="detailProducts/clown1.inc">
+                <a href="../detailProducts/clown1.inc">
                     <img src="../css/images/product-images/clown1.jpg">
                     <p id="product_name">Star Clown</p>
                     <p id="product_amount">$15.00</p>
                 </a>
             </div>
             <div class="item">
-                <a href="detailProducts/holidaywreath.inc">
+                <a href="../detailProducts/holidaywreath.inc">
                     <img src="../css/images/product-images/HolidayWreath.jpg">
                     <p id="product_name">Holiday Wreath</p>
                     <p id="product_amount">$50.00</p>
                 </a>
             </div>
             <div class="item">
-                <a href="detailProducts/waterlighthouse.inc">
+                <a href="../detailProducts/waterlighthouse.inc">
                     <img src="../css/images/product-images/waterlighthouse.jpg">
                     <p id="product_name">Lighthouse Hurricane Statue</p>
                     <p id="product_amount">$175.00</p>
                 </a>
             </div>
             <div class="item">
-                <a href="detailProducts/underwaterdream.inc">
+                <a href="../detailProducts/underwaterdream.inc">
                     <img src="../css/images/product-images/underwaterdream.jpg">
                     <p id="product_name">Under Water Dream</p>
                     <p id="product_amount">$150.00</p>
                 </a>
             </div>
             <div class="item">
-                <a href="detailProducts/maskofdreams.inc">
+                <a href="../detailProducts/maskofdreams.inc">
                     <img src="../css/images/product-images/mask.jpg">
                     <p id="product_name">Mystical Mask of Dreams</p>
                     <p id="product_amount">$200.00</p>
