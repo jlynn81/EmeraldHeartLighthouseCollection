@@ -27,7 +27,7 @@
         <form>
 
             <ul>
-                <li><a href="account_email_information.inc">Email Sign-up</a></li>
+                <li><a href="email_signup_page.inc">Email Sign-up</a></li>
                 <li> <a href="contact.inc">Customer Care</a></li>
             </ul>
             <p><input id="search" type="text" /></p><p class="input">Search</p>
