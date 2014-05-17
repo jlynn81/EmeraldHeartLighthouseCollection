@@ -89,13 +89,13 @@ input{
     border: solid 1px #6fadcf;
     border-radius: 6px;
     box-shadow: 0 1px 3px #6fadcf;
-    background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #F0F9FF),
-            color-stop(1, #9CA2A0)
-    );
+    /*background-image: -webkit-gradient(*/
+            /*linear,*/
+            /*left top,*/
+            /*left bottom,*/
+            /*color-stop(0, #F0F9FF),*/
+            /*color-stop(1, #9CA2A0)*/
+    /*);*/
     opacity: 0.75;
     padding: 5px;
 }

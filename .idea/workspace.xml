@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/current_products.html" afterPath="$PROJECT_DIR$/views/current_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="431" column="10" selection-start="10524" selection-end="10524" vertical-scroll-proportion="0.0" vertical-offset="7073" max-vertical-offset="10864">
+            <state line="87" column="0" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-10.702163" vertical-offset="7824" max-vertical-offset="10864">
               <folding />
             </state>
           </provider>
@@ -42,13 +40,6 @@
             <state line="72" column="65" selection-start="3372" selection-end="3372" vertical-scroll-proportion="-11.52" vertical-offset="864" max-vertical-offset="1840">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="underwaterdream.jpg" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/images/image_slider/underwaterdream.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -73,8 +64,10 @@
       <file leaf-file-name="customer_feedback.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/customer_feedback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="82" selection-start="2623" selection-end="2697" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="3488">
-              <folding />
+            <state line="69" column="82" selection-start="2623" selection-end="2697" vertical-scroll-proportion="24.96" vertical-offset="1728" max-vertical-offset="2656">
+              <folding>
+                <element signature="tag#select#0;tag#div#3;tag#form#0;tag#div#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,11 +131,11 @@
         <option value="$PROJECT_DIR$/views/customer_feedback.inc" />
         <option value="$PROJECT_DIR$/views/whats_new.html" />
         <option value="$PROJECT_DIR$/views/customer_feedback.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/views/contact.html" />
         <option value="$PROJECT_DIR$/views/about_us.html" />
         <option value="$PROJECT_DIR$/views/current_products.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -372,7 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="80" width="1139" height="732" extended-state="6" />
+    <frame x="76" y="80" width="1139" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -423,7 +416,9 @@
     <entry file="file://$PROJECT_DIR$/views/customer_feedback.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="82" selection-start="2623" selection-end="2697" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="3488">
-          <folding />
+          <folding>
+            <element signature="tag#select#0;tag#div#3;tag#form#0;tag#div#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,13 +649,6 @@
         <state line="41" column="69" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.01748634" vertical-offset="640" max-vertical-offset="2544" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer_feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="82" selection-start="2623" selection-end="2697" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="3488">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="0" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.3978142" vertical-offset="596" max-vertical-offset="1920" />
@@ -680,11 +668,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="431" column="10" selection-start="10524" selection-end="10524" vertical-scroll-proportion="0.0" vertical-offset="6753" max-vertical-offset="10864">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/css/images/image_slider/underwaterdream.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -694,9 +680,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/image_slider/underwaterdream.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/views/customer_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="82" selection-start="2623" selection-end="2697" vertical-scroll-proportion="24.96" vertical-offset="1728" max-vertical-offset="2656">
+          <folding>
+            <element signature="tag#select#0;tag#div#3;tag#form#0;tag#div#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-10.702163" vertical-offset="7824" max-vertical-offset="10864">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
