@@ -16,7 +16,7 @@ header, section, footer{
 
 a:link{
     text-decoration: none;
-    color: #3F91BF;
+    color: #0f403d;
 }
 a:visited{
     color: #0f403d;
@@ -71,18 +71,21 @@ form p{
 }
 
 form .input{
-    width: 100px;
-    margin-left: 210px;
+    width: 45%;
+    margin-left: 155px;
     margin-top: -32px;
 }
 
 /* TOP RIGHT NAVIGATION INFORMATION END -------------------------------*/
 
-header p{
-    width: 480px;
+header label{
+    width: 420px;
     height: 35px;
-    padding-top: 10px;
+    padding-top: 15px;
     color: #0F403D;
+    position: relative;left: -36px;
+    display: inline-block;
+    float: right;
 }
 
 input{
@@ -98,6 +101,7 @@ input{
     /*);*/
     opacity: 0.75;
     padding: 5px;
+    margin-right: 10px;
 }
 
 button{
@@ -143,10 +147,9 @@ button:hover{
     height: 44px;
     background-image: url("images/contentimages/nav_bkg.gif");
     width: 960px;
-    border-color: #ff9600;
-    border-width: 1px;
-    border-bottom-style: solid;
+    border: 1px #ff9600;
     border-top-style: solid;
+    border-bottom-style: solid;
 }
 #nav ul {
     list-style: none;
@@ -214,7 +217,7 @@ button:hover{
     position: absolute;
     height: 12px;
     width: 100%;
-    bottom: 0px;
+    bottom: 0;
     overflow: hidden;
     z-index: -1;
 }

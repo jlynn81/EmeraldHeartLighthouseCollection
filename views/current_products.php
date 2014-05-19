@@ -1,65 +1,67 @@
+<?php
+
+
+?>
+
+
 <!DOCTYPE html>
-<html>
+<html ng-app="items">
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Emerald Heart Lighthouse Collection</title>
 
-    <!--Included Third Party Library and Javascript and CSS-->
-    <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
+<!--    Included Third Party Library and Javascript and CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <link href="../js/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="../js/themes/1/js-image-slider.js" type="text/javascript"></script>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
-<header>
+    <header>
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+        <form>
 
-    <form>
+            <ul>
+                <li><a href="email_signup_page.html">Email Sign-up</a></li>
+                <li> <a href="contact.html">Customer Care</a></li>
+            </ul>
+            <label for="search"><input id="search" type="text" class="input">Search</label>
 
-        <ul>
-            <li><a href="email_signup_page.html">Email Sign-up</a></li>
-            <li> <a href="contact.html">Customer Care</a></li>
-        </ul>
-        <p><input id="search" type="text" /></p><p class="input">Search</p>
+        </form>
 
-    </form>
+        <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+        <nav id='nav'>
+            <ul>
 
-    <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
-    <nav id='nav'>
-        <ul>
+                <li class='active'><a href='whats_new.php'><span>What's New</span></a></li>
+                <li class='active has-sub'><a href='current_products.php'><span>Current Products</span></a>
+                    <ul>
+                        <li><a href='#'><span>Home Decor</span></a></li>
+                        <li class='last'><a href='#'><span>Books</span></a></li>
+                    </ul>
+                </li>
 
-            <li class='active'><a href='whats_new.html'><span>What's New</span></a></li>
-            <li class='active has-sub'><a href='current_products.html'><span>Current Products</span></a>
-                <ul>
-                    <li><a href='#'><span>Home Decor</span></a></li>
-                    <li class='last'><a href='#'><span>Books</span></a></li>
-                </ul>
-            </li>
+                <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
+                <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
+                <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
 
-            <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
-            <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
+            </ul>
+        </nav>
+        <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+        <br>
+        <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
+        <!--<p>Welcome!-->
+            <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
+        <!--</p>-->
 
-        </ul>
-    </nav>
-    <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
-
-    <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-    <p>Welcome!
-        <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-    </p>
-
-</header>
+    </header>
 
     <section>
 
@@ -131,6 +133,8 @@
 
     </section>
 
+
+
     <section id="bottom_nav">
         <div id="subfooter">
             <ul>
@@ -143,6 +147,9 @@
             </ul>
         </div>
     </section>
+
+    <script type="text/javascript" src="../javascripts/main.js"></script>
+    <script type="text/javascript" src="../javascripts/productInfo.js"></script>
 
     <footer>
         <p>All Rights</p>
