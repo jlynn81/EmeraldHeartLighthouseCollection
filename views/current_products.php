@@ -75,35 +75,35 @@
                     <p id="product_amount">$40.00</p>
                 </a>
             </div>
-            <div class="item">
+            <div class="item1">
                 <a href="../detailProducts/clown1.html">
                     <img src="../css/images/product-images/clown1.jpg">
                     <p id="product_name1">Star Clown</p>
                     <p id="product_amount1">$15.00</p>
                 </a>
             </div>
-            <div class="item">
+            <div class="item2">
                 <a href="../detailProducts/holidaywreath.html">
                     <img src="../css/images/product-images/HolidayWreath.jpg">
                     <p id="product_name2">Holiday Wreath</p>
                     <p id="product_amount2">$50.00</p>
                 </a>
             </div>
-            <div class="item">
+            <div class="item3">
                 <a href="../detailProducts/waterlighthouse.html">
                     <img src="../css/images/product-images/waterlighthouse.jpg">
                     <p id="product_name3">Lighthouse Hurricane Statue</p>
                     <p id="product_amount3">$175.00</p>
                 </a>
             </div>
-            <div class="item">
+            <div class="item4">
                 <a href="../detailProducts/underwaterdream.html">
                     <img src="../css/images/product-images/underwaterdream.jpg">
                     <p id="product_name4">Under Water Dream</p>
                     <p id="product_amount4">$150.00</p>
                 </a>
             </div>
-            <div class="item">
+            <div class="item5">
                 <a href="../detailProducts/maskofdreams.html">
                     <img src="../css/images/product-images/mask.jpg">
                     <p id="product_name5">Mystical Mask of Dreams</p>
@@ -138,7 +138,7 @@
     <section id="bottom_nav">
         <div id="subfooter">
             <ul>
-                <li><a href="../views/whats_new.html">What's New</a> </li>
+                <li><a href="../views/whats_new.php">What's New</a> </li>
                 <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
                 <li><a href="../views/about_us.html">About Us</a> </li>
                 <li>Customer Service: 1-800-123-4567 </li>

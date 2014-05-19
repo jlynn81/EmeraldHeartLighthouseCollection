@@ -17,6 +17,17 @@
         </value>
       </option>
     </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="aria-labelledby" />
+            <item index="1" class="java.lang.String" itemvalue="ng-app" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
     <inspection_tool class="W3CssValidation" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myCssVersion" value="css3" />
       <option name="myIgnoreVendorSpecificProperties" value="true" />

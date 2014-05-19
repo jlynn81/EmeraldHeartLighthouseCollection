@@ -7,10 +7,11 @@ body{
 }
 /* SITE STRUCTURE -----------------------------------------------------*/
 header, section, footer{
-    width: 960px;
+    width: 1024px;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
+    text-align: center;
 
 }
 
@@ -48,9 +49,16 @@ header > ul{
     color: #0F403D;
 }
 
+header p{
+    position: relative;left: -15px;
+    padding-top: 5px;
+    border-bottom-width: 10px;
+    width: 120px;height: 25px;
+}
+
 /* TOP RIGHT NAVIGATION INFORMATION ----------------------------------- */
 header form{
-    width: 306px;
+    width: 380px;
     float: right;
 }
 
@@ -146,7 +154,7 @@ button:hover{
     position: relative;left: -20px;
     height: 44px;
     background-image: url("images/contentimages/nav_bkg.gif");
-    width: 960px;
+    width: 1024px;
     border: 1px #ff9600;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -575,7 +583,7 @@ blockquote p{
 
 /* CURRENT PRODUCTS, WHAT'S NEW PAGE INFORMATION ----------------------*/
 
-.item{
+.item, .item1, .item2, .item3, .item4, .item5{
     float: right;
     font-family: 'Oxygen',sans-serif;
     height: auto;
@@ -599,13 +607,13 @@ blockquote p{
     width: 675px;
 }
 
-.item img{
+.item img, .item1 img, .item2 img, .item3 img, .item4 img, .item5 img{
    max-width: 15em;
     height: auto;
     padding-bottom: 5px;
 }
 
-.item p{
+.item p, .item1 p, .item2 p, .item3 p, .item4 p, .item5 p{
     padding-bottom: 5px;
 }
 
