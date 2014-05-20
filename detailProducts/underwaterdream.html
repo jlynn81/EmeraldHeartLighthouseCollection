@@ -9,10 +9,23 @@
     <!--    Included Third Party Library and Javascript and CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="../jquery-ui-1.10.4.custom/development-bundle/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="../jquery-ui-1.10.4.custom/development-bundle/ui/jquery.ui.accordion.js"></script>
+    <link rel="stylesheet" href="../jquery-ui-1.10.4.custom/development-bundle/themes/base/jquery.ui.accordion.css">
 
     <!-- Included Application specific CSS and Javascript -->
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
+
+    <script>
+        $(function() {
+            $( "#accordion" ).accordion({
+                collapsible: true
+            });
+        });
+    </script>
 
 </head>
 
@@ -52,40 +65,53 @@
     <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
     <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-    <p>Welcome!
-        <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-    </p>
+    <!--<p>Welcome!-->
+    <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
+    <!--</p>-->
+    <br>
+
 
 </header>
 
-<section>
+    <section id="product_info">
 
-    <div id="product_information">
-        <p><img src="../css/images/product-images/underwaterdream.jpg"/> </p>
+        <p><img src="../css/images/product-images/underwaterdream.jpg" alt="unicorn"/></p>
+
+        <div class="item_description">
+
+            <form>
+                <ul>
+                    <li><h2>Underwater Dream</h2></li>
+                    <li>by artist Sue Frazier</li><br>
+                    <li>$150.00</li>
+                    <li>Status: Available <p>(Only one item)</p> </li>
+
+                    <li><button type="button">Add to Cart</button></li>
+                    <br>
+
+                </ul>
+
+            </form>
 
 
-    </div>
+            <div id="accordion">
+
+                <h3>Product Overview</h3>
+                <div>
+                    <p>The Orca's swim in serenity within the custom shell border and added natural elements.</p>
+                    <ul>
+                        <li>12" Tall, 4" Wide</li>
+                        <li>Made from local materials</li>
+                    </ul>
+                </div>
 
 
-    <div id="side_nav">
-        <h2>Themes</h2>
-        <ul>
-            <li><a href=""> Nautical</a></li>
-            <li><a href=""> Fantasy</a> </li>
-            <li><a href=""> Whimsical</a> </li>
-            <li><a href=""> Nature</a> </li>
-            <li><a href=""> 5 Elements</a> </li>
-            <li><a href=""> Spiritual</a> </li>
-        </ul>
-        <br>
-        <h2>Current Products</h2>
-        <ul>
-            <li><a href=""> Home Decor</a> </li>
-            <li><a href=""> Books</a> </li>
-        </ul>
-    </div>
+            </div>
 
-</section>
+
+        </div>
+
+    </section>
 
 <section id="bottom_nav">
     <div id="subfooter">

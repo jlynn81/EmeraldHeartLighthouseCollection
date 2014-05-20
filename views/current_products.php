@@ -1,9 +1,3 @@
-<?php
-
-
-?>
-
-
 <!DOCTYPE html>
 <html ng-app="items">
 <head lang="en">
@@ -138,9 +132,9 @@
     <section id="bottom_nav">
         <div id="subfooter">
             <ul>
-                <li><a href="../views/whats_new.php">What's New</a> </li>
-                <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
-                <li><a href="../views/about_us.html">About Us</a> </li>
+                <li><a href="whats_new.php">What's New</a> </li>
+                <li><a href="customer_feedback.html">Customer Feedback</a> </li>
+                <li><a href="about_us.html">About Us</a> </li>
                 <li>Customer Service: 1-800-123-4567 </li>
                 <li>Orders: 1-800-456-7890</li>
                 <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>

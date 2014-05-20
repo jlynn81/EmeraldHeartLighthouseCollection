@@ -1151,9 +1151,9 @@
     </table>
     <table name="product_details" schema="" catalog="product_database" type="TABLE">
       <column name="item" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="Product Name" sqlType="VARCHAR" length="250" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
-      <column name="Description" sqlType="VARCHAR" length="250" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
-      <column name="Price" sqlType="DECIMAL" length="11" precision="0" nullable="false" jdbcType="3"/>
+      <column name="product_name" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
+      <column name="product_description" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
+      <column name="product_amount" sqlType="DECIMAL" length="11" precision="0" nullable="true" jdbcType="3"/>
     </table>
   </data-source>
 </component>
