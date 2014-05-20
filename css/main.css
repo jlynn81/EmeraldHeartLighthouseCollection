@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Alex+Brush);
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
 
+
 body{
     background: #F0F9FF url("images/contentimages/page_background.jpg");
 
@@ -11,7 +12,6 @@ header, section, footer{
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
-    text-align: center;
 
 }
 
@@ -58,7 +58,7 @@ header p{
 
 /* TOP RIGHT NAVIGATION INFORMATION ----------------------------------- */
 header form{
-    width: 380px;
+    width: 306px;
     float: right;
 }
 
@@ -642,6 +642,56 @@ blockquote p{
     padding-top: 10px;
 }
 /* PAGE SIDE NAVIGATION END -------------------------------------------*/
+
+/* PRODUCT DETAIL PAGE INFORMATION ------------------------------------*/
+
+#product_info{
+    padding-top: 50px;
+}
+
+#product_info img{
+    width: 50%;
+    padding-top: 20px;
+    float: left;
+}
+
+#product_info h2{
+    color: #0f403d;
+    font-size: 24pt;
+    padding-top: 20px;
+
+}
+
+.item_description form{
+    float: right;
+    width: 425px;
+}
+
+.item_description form ul{
+    padding-bottom: 20px;
+}
+
+.item_description ul li{
+    color: #4B706E;
+    padding-bottom: 10px;
+}
+
+.item_description li p{
+    color: #A63417;
+    display: inline;
+}
+
+#accordion {
+    color: #0F403D;
+    clear: right;
+    position: relative;left: 25px;
+
+}
+
+#accordion #ui-accordion-accordion-header-0{
+    color: #0F403D;
+}
+
 
 /* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/
 #bottom_nav{
