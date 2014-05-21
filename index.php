@@ -4,7 +4,7 @@
 include 'application/models/productModel.php';
 include 'application/models/productViewModel.php';
 
-$pagename = 'index';
+$pagename = '';
 
 
 $views = new productViewModel();
