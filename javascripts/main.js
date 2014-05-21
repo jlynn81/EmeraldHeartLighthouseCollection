@@ -32,12 +32,12 @@
     });
 
     var merchandise2 = new Merchandise({
-        product_name: 'Mystical Carousel Unicorn',
+        product_name: 'Holiday Wreath',
         product_artist: 'By artist Sue Frazier',
         product_description: 'The statuesque portrayal of a mythical carousel unicorn inspired to serenade you into ' +
             'fantasy as you press the music button located at the base of the unicorn',
         product_detail: '12" Tall, 4" Wide' + 'Made from local materials',
-        product_amount: '$40.00',
+        product_amount: '$50.00',
         product_status: 'Status'
 
     });

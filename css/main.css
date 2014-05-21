@@ -664,7 +664,8 @@ blockquote p{
 
 .item_description form{
     float: right;
-    width: 425px;
+    width: 50%;
+    padding-left: 2em;
 }
 
 .item_description form ul{
@@ -684,13 +685,39 @@ blockquote p{
 #accordion {
     color: #0F403D;
     clear: right;
-    position: relative;left: 25px;
-
+    position: relative;left: 2em;top: 4.7em;
 }
 
-#accordion #ui-accordion-accordion-header-0{
+#accordion h3{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14pt;
+    background-image: url("../css/images/contentimages/nav_bkg.gif");
+    border-color: #ff9600;
+}
+
+#accordion div p{
+    font-size: 10pt;
     color: #0F403D;
+    border: none;
 }
+
+#accordion ul{
+    font-size: 10pt;
+    color: #4B706E;
+    list-style: disc outside none;
+    padding-left: 30px;padding-top: 10px;
+}
+
+#backNavigation{
+    display: inline-flex;
+}
+
+#backNavigation p:first-line{
+    color: #4B706E;
+}
+
+
+
 
 
 /* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/

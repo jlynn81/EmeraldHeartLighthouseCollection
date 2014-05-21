@@ -9,10 +9,23 @@
     <!--    Included Third Party Library and Javascript and CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="../jquery-ui-1.10.4.custom/development-bundle/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="../jquery-ui-1.10.4.custom/development-bundle/ui/jquery.ui.accordion.js"></script>
+    <link rel="stylesheet" href="../jquery-ui-1.10.4.custom/development-bundle/themes/base/jquery.ui.accordion.css">
 
     <!-- Included Application specific CSS and Javascript -->
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
+
+    <script>
+        $(function() {
+            $( "#accordion" ).accordion({
+                collapsible: true
+            });
+        });
+    </script>
 
 </head>
 
@@ -58,28 +71,54 @@
 
 </header>
 
-<section>
+    <section id="product_info">
+
+        <p><a href="../views/current_products.html"> Return to Current Products</a></p>
+
+        <p><img src="../css/images/product-images/seashellwreath.jpg" alt="unicorn"/></p>
+
+        <div class="item_description">
+
+            <form>
+                <ul>
+                    <li><h2>Sea Shell Wreath</h2></li>
+                    <li>by artist Sue Frazier</li>
+                    <li></li>
+                    <li>$50.00</li>
+                    <li>Status: Available <p>(Only one item)</p> </li>
+
+                </ul>
+
+            </form>
+
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="NW64ZZC7C3TUN">
+                <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
+            </form>
 
 
-    <div id="side_nav">
-        <h2>Themes</h2>
-        <ul>
-            <li><a href=""> Nautical</a></li>
-            <li><a href=""> Fantasy</a> </li>
-            <li><a href=""> Whimsical</a> </li>
-            <li><a href=""> Nature</a> </li>
-            <li><a href=""> 5 Elements</a> </li>
-            <li><a href=""> Spiritual</a> </li>
-        </ul>
-        <br>
-        <h2>Current Products</h2>
-        <ul>
-            <li><a href=""> Home Decor</a> </li>
-            <li><a href=""> Books</a> </li>
-        </ul>
-    </div>
 
-</section>
+
+
+            <div id="accordion">
+
+                <h3>Product Overview</h3>
+                <div>
+                    <p>The Orca's swim in serenity within the custom shell border and added natural elements.</p>
+                    <ul>
+                        <li>18" Round, 6" Wide, 6" Deep</li>
+                        <li>Made from local materials</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
 
 <section id="bottom_nav">
     <div id="subfooter">
