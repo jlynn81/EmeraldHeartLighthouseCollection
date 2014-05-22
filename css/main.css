@@ -100,13 +100,7 @@ input{
     border: solid 1px #6fadcf;
     border-radius: 6px;
     box-shadow: 0 1px 3px #6fadcf;
-    /*background-image: -webkit-gradient(*/
-            /*linear,*/
-            /*left top,*/
-            /*left bottom,*/
-            /*color-stop(0, #F0F9FF),*/
-            /*color-stop(1, #9CA2A0)*/
-    /*);*/
+
     opacity: 0.75;
     padding: 5px;
     margin-right: 10px;
@@ -435,9 +429,11 @@ button:hover{
 
 /* SECTION CONTENT AREA */
 section {
-    /*background: #f2d2aa url("images/product-images/section_background.gif");*/
-    width: 960px;
-    height: 643px;
+    height: 800px;
+}
+
+#customer_feedback_form{
+    height: 800px;
 }
 
 .image img{
@@ -513,17 +509,21 @@ blockquote p{
 
 #feedback p{
     text-align: left;
-    font-size: 12pt;
+    font-size: 10pt;
     color: #4B706E;
-    padding-bottom: 10px;
-}
-
-#feedback div{
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    line-height: 1.3em;
 }
 
 #feedback form{
 
+}
+
+#feedback textarea{
+    border: solid 1px #6fadcf;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px #6fadcf;
+    padding: 5px;
 }
 
 .submit{
@@ -602,7 +602,7 @@ blockquote p{
     float: right;
     font-family: 'Oxygen',sans-serif;
     font-size: 10pt;
-    position: relative;
+    position: relative;top: 5em;
     right: -100px;
     width: 675px;
 }
@@ -621,9 +621,8 @@ blockquote p{
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/
 #side_nav{
     font-family: 'Oxygen', sans-serif;
-    padding-top: 50px;
+    padding-top: 5em;
     width: 245px;
-    height: 512px;
 }
 
 #side_nav h2{
