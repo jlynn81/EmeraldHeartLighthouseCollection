@@ -100,7 +100,6 @@ input{
     border: solid 1px #6fadcf;
     border-radius: 6px;
     box-shadow: 0 1px 3px #6fadcf;
-
     opacity: 0.75;
     padding: 5px;
     margin-right: 10px;
@@ -429,11 +428,13 @@ button:hover{
 
 /* SECTION CONTENT AREA */
 section {
-    height: 800px;
+    height: 700px;
+    padding-top: 5em;
 }
 
 #customer_feedback_form{
-    height: 800px;
+    padding-top: 5em;
+    height: 70em;
 }
 
 .image img{
@@ -446,9 +447,7 @@ blockquote{
     font-family: 'Alex Brush', cursive;
     font-size: 40pt;
     text-align: center;
-    padding: 20px 0 20px 0;
     color: #0F403D;
-    position: relative;top: 20px;bottom: 20px;
 
 }
 
@@ -465,7 +464,7 @@ blockquote p{
     width: 272px;
     height: 380px;
     float: right;
-    position: absolute;right: 60px;top: 147px;left: 665px;
+    position: absolute;top: 186px;left: 698px;
 }
 
 #content p{
@@ -532,11 +531,10 @@ blockquote p{
 
 /* ABOUT US PAGE START ------------------------------------------------*/
 #about_us_content, #feedback, #contact{
-    margin: 0 auto;
     font-family: 'Oxygen', sans-serif;
-    width: 618px;
+    width: 40em;
     height: 600px;
-    position: relative;top: 25px;
+    position: relative;top: 1em;
     float: right;
 }
 
@@ -721,7 +719,7 @@ blockquote p{
 
 /* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/
 #bottom_nav{
-    height: 100px;
+    height: 12em;
 }
 
 #subfooter{

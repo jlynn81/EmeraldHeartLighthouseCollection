@@ -13,7 +13,7 @@
 
 .TTWForm-container {
     font-size: 75%;
-    color: #222;
+    color: #4B706E;
     background: #fff;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -29,6 +29,7 @@
 /** Field Styles **/
 .TTWForm .field, #form-title.field {
     padding-bottom: 12px;
+    padding-top: 12px;
     position: relative;
     clear: both;
 }
@@ -54,14 +55,15 @@
     width: 71%;
     display: inline;
     float: left;
-    margin-left: 2%;
-    margin-right: 2%; /* jquery ui resize grid hack - not sure why */
+    /*margin-left: 2%;*/
+    /*margin-right: 2%; *//* jquery ui resize grid hack - not sure why */
 }
 
 .f_100 {
     width: 96%;
     display: inline;
     float: left;
+    margin-left: 2%;
     margin-right: 2%; /* jquery ui resize grid hack - not sure why */
 }
 
@@ -79,6 +81,7 @@
 .TTWForm input[type=radio], .TTWForm input[type=checkbox] {
     width: 12px;
     margin: 8px 12px;
+    top: 3px;
     position: relative;
 }
 
@@ -108,7 +111,6 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
-    text-shadow: 1px 1px 0px #fff;
     display: block;
     margin: 12px -2px 12px 0;
     text-align: center;
@@ -124,7 +126,6 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FBFBFB', endColorstr = '#EEEEEE', GradientType = 0); /* ie */
     border: 1px solid #cfcfcf;
     font-weight: bold;
-    color: #666;
 }
 
 
@@ -173,12 +174,12 @@
     height: 20px;
     float: left;
     cursor: pointer;
-    background: transparent url(../../../../../Users/jlynn81/Downloads/1400722271/images/prev.png) no-repeat center center scroll;
+    background: transparent url(../../../../../Users/jlynn81/Downloads/1400726751/images/prev.png) no-repeat center center scroll;
 }
 
 #calnext {
     float: right;
-    background: transparent url(../../../../../Users/jlynn81/Downloads/1400722271/images/next.png) no-repeat center center scroll;
+    background: transparent url(../../../../../Users/jlynn81/Downloads/1400726751/images/next.png) no-repeat center center scroll;
 }
 
 #calprev.caldisabled, #calnext.caldisabled {
@@ -262,7 +263,7 @@ a.caldisabled {
 /** Range Input **/
 
 .slider {
-    background: #3C72E6 url(../../../../../Users/jlynn81/Downloads/1400722271/images/range_gradient.png) repeat-x 0 0;
+    background: #3C72E6 url(../../../../../Users/jlynn81/Downloads/1400726751/images/range_gradient.png) repeat-x 0 0;
     height: 9px;
     position: relative;
     cursor: pointer;
@@ -284,7 +285,7 @@ a.caldisabled {
 }
 
 .handle {
-    background: #fff url(../../../../../Users/jlynn81/Downloads/1400722271/images/range_gradient.png) repeat-x 0 0;
+    background: #fff url(../../../../../Users/jlynn81/Downloads/1400726751/images/range_gradient.png) repeat-x 0 0;
     height: 28px;
     width: 28px;
     top: -12px;

@@ -6,11 +6,12 @@
 
 $form = new ProcessForm();
 $form->field_rules = array(
-	'txt_name'=>'required',
-	'field5'=>'email|required',
+	'name'=>'required',
+	'phone'=>'',
+	'email'=>'email|required',
+	'how'=>'required',
 	'contact'=>'required',
-	'found'=>'required',
-	'comment'=>'required'
+	'comments'=>''
 );
 $form->validate();
 

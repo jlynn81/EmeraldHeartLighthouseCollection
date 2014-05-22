@@ -223,5 +223,6 @@
         var validator = $('.TTWForm').data('validator');
 
 
+    });
 
-})()});
+})();
