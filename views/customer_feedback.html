@@ -14,8 +14,9 @@
     <script type="text/javascript" src="../javascripts/jquery.tools.js"></script>
     <script type="text/javascript" src="../javascripts/jquery.uniform.min.js"></script>
     <script type="text/javascript" src="../javascripts/main.js"></script>
-
     <script type="text/javascript" src="../javascripts/validate.js"></script>
+
+
 
     <!-- Included Application specific CSS and Javascript -->
     <link rel="stylesheet" href="../css/reset.css">
@@ -77,29 +78,29 @@
         <div class="TTWForm-container">
 
 
-            <form action="../process_form.php" class="TTWForm" method="post" novalidate="">
+
+            <form  class="TTWForm" name="TTWForm" method="post" novalidate="">
 
 
                 <div id="field1-container" class="field f_75">
-                    <label for="field1">
-                        Your Name
-                    </label>
-                    <input name="name" id="field1" required="required" type="text">
+                    <p>* Denotes a Required Field prior to form submission</p>
+                    <label for="field1">Your Name</label>
+                    <label id="field1_req" class="required">*</label>
+                    <input name="field1" id="field1" required="required" type="text">
+
                 </div>
 
 
                 <div id="field6-container" class="field f_75">
-                    <label for="field6">
-                        Your Phone
-                    </label>
+                    <label for="field6">Your Phone</label>
+                    <label id="field6_req" class="required">*</label>
                     <input name="phone" id="field6" type="text">
                 </div>
 
 
                 <div id="field5-container" class="field f_75">
-                    <label for="field5">
-                        Email Address
-                    </label>
+                    <label for="field5">Email Address</label>
+                    <label id="field5_req" class="required">*</label>
                     <input name="email" id="field5" required="required" type="email">
                 </div>
 
@@ -152,51 +153,41 @@
 
                     <div class="option clearfix">
                         <input name="contact" id="field4-1" value="Email" type="checkbox">
-                    <span class="option-title">
-                         Email
-                    </span>
+                    <span class="option-title">Email</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
                         <input name="contact" id="field4-2" value="Phone" type="checkbox">
-                    <span class="option-title">
-                         Phone
-                    </span>
+                    <span class="option-title">Phone</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
                         <input name="contact" id="field4-3" value="Neither" type="checkbox">
-                    <span class="option-title">
-                         Neither
-                    </span>
+                    <span class="option-title">Neither</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
                         <input name="contact" id="contact-4" value="Both" type="checkbox">
-                    <span class="option-title">
-                         Both
-                    </span>
+                    <span class="option-title">Both</span>
                         <br>
                     </div>
                 </div>
 
 
                 <div id="field2-container" class="field f_75">
-                    <label for="field2">
-                        Comments
-                    </label>
+                    <label for="field2">Comments</label>
                     <textarea rows="5" cols="20" name="comments" id="field2"></textarea>
                 </div>
 
 
                 <div id="form-submit" class="field f_100 clearfix submit">
-                    <button value="Submit Form" type="submit">Submit Form</button>
+                    <button onclick="alert('Your form was successfully submitted!')" id="submit" value="Submit Form" type="submit">Submit Form</button>
                 </div>
             </form>
         </div>

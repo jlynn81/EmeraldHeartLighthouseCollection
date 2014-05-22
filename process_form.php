@@ -133,15 +133,15 @@ class ProcessForm
 
 
 
-         // $msg = "Form Contents: \n\n";
-         // foreach($this->fields as $key => $field)
-         //       $msg .= "$key :  $field \n";
+          $msg = "Form Contents: \n\n";
+          foreach($this->fields as $key => $field)
+                $msg .= "$key :  $field \n";
 
-         // $to = 'emailaddress@domain.com';
-         // $subject = 'Form Submission';
-         // $from = 'emailaddress@domain.com';
+          $to = 'EmeraldHeartLC@gmail.com';
+          $subject = 'Form Submission';
+          $from = $this->fields['field5'];
 
-         // mail($to, $subject, $msg, "From: $from\r\nReply-To: $from\r\nReturn-Path: $from\r\n");
+          mail($to, $subject, $msg, "From: $from\r\nReply-To: $from\r\nReturn-Path: $from\r\n");
 
 
     }

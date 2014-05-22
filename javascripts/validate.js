@@ -2,14 +2,18 @@
 
 (function(){
 
-    var name = document.getElementById('txt_Name');
-    var email = document.getElementById('txt_Email');
-    var phone = document.getElementById('txt_Phone');
+    var name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var phone = document.getElementById('field6');
+    var subBtn = document.getElementById('submit');
+        subBtn.addEventListener('click', onClick);
 
     function onClick(e){
+        console.log("Hi");
         validate(name);
         validate(email);
         validate(phone);
+        e.preventDefault();
     }
 
     function validate (user){
@@ -29,7 +33,7 @@
             pass = pattern.test(user.value)
         }
 
-        var errorMsg = user.nextSibling.nextSibling.nextSibling.nextSibling;
+        var errorMsg = user.nextSibling.nextSibling.nextSibling;
 
         if (!pass || user.value.length < 2){
             errorMsg.style.display = 'block';
@@ -46,4 +50,4 @@
 
 
 
-})();
+})(); //end wrapper
