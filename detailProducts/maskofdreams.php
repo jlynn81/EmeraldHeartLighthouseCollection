@@ -48,83 +48,81 @@
     <nav id='nav'>
         <ul>
 
-            <li class='active'><a href='../views/whats_new.html'><span>What's New</span></a></li>
-            <li class='active has-sub'><a href='../views/current_products.html'><span>Current Products</span></a>
+            <li class='active'><a href='../views/whats_new.php'><span>What's New</span></a></li>
+            <li class='active has-sub'><a href='../views/current_products.php'><span>Current Products</span></a>
                 <ul>
-                    <li><a href='../views/current_products.html'><span>Home Decor</span></a></li>
-                    <li class='last'><a href='../views/current_products.html'><span>Books</span></a></li>
+                    <li><a href='../views/current_products.php'><span>Home Decor</span></a></li>
+                    <li class='last'><a href='../views/current_products.php'><span>Books</span></a></li>
                 </ul>
             </li>
 
             <li class='active'><a href='../views/about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="../views/contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='../views/customer_feedback.html'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='../views/customer_feedback.php'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
     <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
     <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-    <p>Welcome!
-        <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-    </p>
+    <!--<p><a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> </p>-->
+    <br>
 
 </header>
 
-    <section id="product_info">
+<section id="product_info">
 
-        <p><a href="../views/current_products.html"> Return to Current Products</a></p>
+    <p><a href="../views/current_products.php"> Return to Current Products</a></p>
 
-        <p><img src="../css/images/product-images/seashellwreath.jpg" alt="unicorn"/></p>
+    <p><img src="../css/images/product-images/mask.jpg" alt="mask"/></p>
 
-        <div class="item_description">
+    <div class="item_description">
 
-            <form>
+        <form>
+            <ul>
+                <li><h2>Mask of Dreams</h2></li>
+                <li>by artist Sue Frazier</li>
+                <li></li>
+                <li>$40.00</li>
+                <li>Status: Available <p>(Only one item)</p> </li>
+
+            </ul>
+
+        </form>
+
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="AB7FHDJQDTU4G">
+            <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
+        </form>
+
+
+
+        <div id="accordion">
+
+            <h3>Product Overview</h3>
+            <div>
+                <p>This mask is sure to enhance your dreams and keep your imagination alive with the
+                unique poem within the face.</p>
                 <ul>
-                    <li><h2>Sea Shell Wreath</h2></li>
-                    <li>by artist Sue Frazier</li>
-                    <li></li>
-                    <li>$50.00</li>
-                    <li>Status: Available <p>(Only one item)</p> </li>
-
+                    <li>8" Tall, 6" Wide</li>
+                    <li>Made from local materials</li>
                 </ul>
-
-            </form>
-
-            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="NW64ZZC7C3TUN">
-                <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
-            </form>
-
-
-
-
-
-            <div id="accordion">
-
-                <h3>Product Overview</h3>
-                <div>
-                    <p>The Orca's swim in serenity within the custom shell border and added natural elements.</p>
-                    <ul>
-                        <li>18" Round, 6" Wide, 6" Deep</li>
-                        <li>Made from local materials</li>
-                    </ul>
-                </div>
-
-
             </div>
 
 
         </div>
 
-    </section>
+
+    </div>
+
+</section>
 
 <section id="bottom_nav">
     <div id="subfooter">
         <ul>
-            <li><a href="../views/whats_new.html">What's New</a> </li>
-            <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="../views/whats_new.php">What's New</a> </li>
+            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
             <li><a href="../views/about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>

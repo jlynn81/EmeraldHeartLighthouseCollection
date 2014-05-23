@@ -48,17 +48,17 @@
     <nav id='nav'>
         <ul>
 
-            <li class='active'><a href='../views/whats_new.html'><span>What's New</span></a></li>
-            <li class='active has-sub'><a href='../views/current_products.html'><span>Current Products</span></a>
+            <li class='active'><a href='../views/whats_new.php'><span>What's New</span></a></li>
+            <li class='active has-sub'><a href='../views/current_products.php'><span>Current Products</span></a>
                 <ul>
-                    <li><a href='../views/current_products.html'><span>Home Decor</span></a></li>
-                    <li class='last'><a href='../views/current_products.html'><span>Books</span></a></li>
+                    <li><a href='../views/current_products.php'><span>Home Decor</span></a></li>
+                    <li class='last'><a href='../views/current_products.php'><span>Books</span></a></li>
                 </ul>
             </li>
 
             <li class='active'><a href='../views/about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="../views/contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='../views/customer_feedback.html'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='../views/customer_feedback.php'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -74,7 +74,7 @@
 
 <section id="product_info">
 
-    <p><a href="../views/current_products.html"> Return to Current Products</a></p>
+    <p><a href="../views/current_products.php"> Return to Current Products</a></p>
 
     <p><img src="../css/images/product-images/waterlighthouse.jpg" alt="unicorn"/></p>
 
@@ -123,8 +123,8 @@
 <section id="bottom_nav">
     <div id="subfooter">
         <ul>
-            <li><a href="../views/whats_new.html">What's New</a> </li>
-            <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="../views/whats_new.php">What's New</a> </li>
+            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
             <li><a href="../views/about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>

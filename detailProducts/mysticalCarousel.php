@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Emerald Heart Lighthouse Collection</title>
+    <title>Emerald Heart Lighthouse Collection - Mystical Carousel Unicorn</title>
 
     <!--    Included Third Party Library and Javascript and CSS-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -48,17 +48,17 @@
     <nav id='nav'>
         <ul>
 
-            <li class='active'><a href='../views/whats_new.html'><span>What's New</span></a></li>
-            <li class='active has-sub'><a href='../views/current_products.html'><span>Current Products</span></a>
+            <li class='active'><a href='../views/whats_new.php'><span>What's New</span></a></li>
+            <li class='active'><a href='../views/current_products.php'><span>Current Products</span></a>
                 <ul>
-                    <li><a href='../views/current_products.html'><span>Home Decor</span></a></li>
-                    <li class='last'><a href='../views/current_products.html'><span>Books</span></a></li>
+                    <li><a href='../views/current_products.php'><span>Home Decor</span></a></li>
+                    <li class='last'><a href='../views/current_products.php'><span>Books</span></a></li>
                 </ul>
             </li>
 
             <li class='active'><a href='../views/about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="../views/contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='../views/customer_feedback.html'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='../views/customer_feedback.php'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -72,59 +72,58 @@
 
 </header>
 
-<section id="product_info">
+    <section id="product_info">
 
-    <p><a href="../views/current_products.html"> Return to Current Products</a></p>
+        <p><a href="../views/current_products.php"> Return to Current Products</a></p>
 
-    <p><img src="../css/images/product-images/HolidayWreath.jpg" alt="wreath"/></p>
+        <p><img src="../css/images/product-images/unicorn1.jpg" alt="unicorn"/></p>
 
-    <div class="item_description">
+       <div class="item_description">
 
-        <form>
-            <ul>
-                <li><h2>Holiday Wreath</h2></li>
-                <li>by artist Sue Frazier</li>
-                <li></li>
-                <li>$50.00</li>
-                <li>Status: Available <p>(Only one item)</p> </li>
+           <form>
+               <ul>
+                   <li><h2>Mythical Carousel Unicorn</h2></li>
+                   <li>by artist Sue Frazier</li>
+                   <li></li>
+                   <li>$40.00</li>
+                   <li>Status: Available <p>(Only one item)</p> </li>
 
-            </ul>
+               </ul>
 
-        </form>
+           </form>
 
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="3RN8CARSVSX2W">
-            <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
-        </form>
+           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+               <input type="hidden" name="cmd" value="_s-xclick">
+               <input type="hidden" name="hosted_button_id" value="W595ZC5M7Z322">
+               <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
+           </form>
 
 
+           <div id="accordion">
 
-        <div id="accordion">
+               <h3>Product Overview</h3>
+               <div>
+                   <p>The statuesque portrayal of a mythical carousel unicorn inspired to serenade
+                       you into fantasy with the press of the music button located at the base of the unicorn.</p>
+                   <ul>
+                       <li>12" Tall, 4" Wide</li>
+                       <li>Made from local materials</li>
+                   </ul>
+               </div>
 
-            <h3>Product Overview</h3>
-            <div>
-                <p>This wreath will bring warmth to your heart, fill your home with joy over the holiday season and welcome
-                   your guests to your home in a warm welcome.</p>
-                <ul>
-                    <li>18" Around, 6" Wide, 6" Deep</li>
-                    <li>Made from local materials</li>
-                </ul>
-            </div>
+
+           </div>
 
 
         </div>
 
-
-    </div>
-
-</section>
+    </section>
 
 <section id="bottom_nav">
     <div id="subfooter">
         <ul>
-            <li><a href="../views/whats_new.html">What's New</a> </li>
-            <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="../views/whats_new.php">What's New</a> </li>
+            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
             <li><a href="../views/about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>

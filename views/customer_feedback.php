@@ -42,17 +42,17 @@
     <nav id='nav'>
         <ul>
 
-            <li class='active'><a href='whats_new.html'><span>What's New</span></a></li>
-            <li class='active has-sub'><a href='current_products.html'><span>Current Products</span></a>
+            <li class='active'><a href='whats_new.php'><span>What's New</span></a></li>
+            <li class='active has-sub'><a href='current_products.php'><span>Current Products</span></a>
                 <ul>
-                    <li><a href='current_products.html'><span>Home Decor</span></a></li>
-                    <li class='last'><a href='current_products.html'><span>Books</span></a></li>
+                    <li><a href='current_products.php'><span>Home Decor</span></a></li>
+                    <li class='last'><a href='current_products.php'><span>Books</span></a></li>
                 </ul>
             </li>
 
             <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='customer_feedback.php'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -120,7 +120,7 @@
 
 
                     <div class="option clearfix">
-                        <input name="how" id="field3-2" value="Internet Search" type="radio">
+                        <label for="field3-2"></label><input name="how" id="field3-2" value="Internet Search" type="radio">
                     <span class="option-title">
                          Internet Search
                     </span>
@@ -128,7 +128,7 @@
 
 
                     <div class="option clearfix">
-                        <input name="how" id="field3-3" value="Newspaper" type="radio">
+                        <label for="field3-3"></label><input name="how" id="field3-3" value="Newspaper" type="radio">
                     <span class="option-title">
                          Newspaper
                     </span>
@@ -136,7 +136,7 @@
 
 
                     <div class="option clearfix">
-                        <input name="how" id="how-4" value="Other" type="radio">
+                        <label for="how-4"></label><input name="how" id="how-4" value="Other" type="radio">
                     <span class="option-title">
                          Other
                     </span>
@@ -159,21 +159,21 @@
 
 
                     <div class="option clearfix">
-                        <input name="contact" id="field4-2" value="Phone" type="checkbox">
+                        <label for="field4-2"></label><input name="contact" id="field4-2" value="Phone" type="checkbox">
                     <span class="option-title">Phone</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
-                        <input name="contact" id="field4-3" value="Neither" type="checkbox">
+                        <label for="field4-3"></label><input name="contact" id="field4-3" value="Neither" type="checkbox">
                     <span class="option-title">Neither</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
-                        <input name="contact" id="contact-4" value="Both" type="checkbox">
+                        <label for="contact-4"></label><input name="contact" id="contact-4" value="Both" type="checkbox">
                     <span class="option-title">Both</span>
                         <br>
                     </div>
@@ -200,8 +200,8 @@
 <section id="bottom_nav">
     <div id="subfooter">
         <ul>
-            <li><a href="../views/whats_new.html">What's New</a> </li>
-            <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="../views/whats_new.php">What's New</a> </li>
+            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
             <li><a href="../views/about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>
