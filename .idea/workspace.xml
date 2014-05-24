@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="744" column="19" selection-start="16077" selection-end="16077" vertical-scroll-proportion="0.0" vertical-offset="11471" max-vertical-offset="12128">
+            <state line="439" column="12" selection-start="10550" selection-end="10550" vertical-scroll-proportion="0.5536398" vertical-offset="6735" max-vertical-offset="12128">
               <folding />
             </state>
           </provider>
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="12" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.6321839" vertical-offset="1183" max-vertical-offset="1792">
+            <state line="104" column="7" selection-start="4481" selection-end="4481" vertical-scroll-proportion="-19.24" vertical-offset="1183" max-vertical-offset="1792">
               <folding />
             </state>
           </provider>
@@ -150,17 +150,17 @@
         <option value="$PROJECT_DIR$/views/customer_feedback.php" />
         <option value="$PROJECT_DIR$/views/current_products.php" />
         <option value="$PROJECT_DIR$/views/contact.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP PHP 5.5.3" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="296" />
+    <option name="x" value="155" />
     <option name="y" value="22" />
     <option name="width" value="1144" />
-    <option name="height" value="788" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -341,7 +341,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="22" width="1144" height="788" extended-state="0" />
+    <frame x="155" y="22" width="1144" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -679,16 +679,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="744" column="19" selection-start="16077" selection-end="16077" vertical-scroll-proportion="0.0" vertical-offset="11471" max-vertical-offset="12128">
+        <state line="104" column="7" selection-start="4481" selection-end="4481" vertical-scroll-proportion="-19.24" vertical-offset="1183" max-vertical-offset="1792">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="12" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.6321839" vertical-offset="1183" max-vertical-offset="1792">
+        <state line="439" column="12" selection-start="10550" selection-end="10550" vertical-scroll-proportion="0.5536398" vertical-offset="6735" max-vertical-offset="12128">
           <folding />
         </state>
       </provider>

@@ -437,7 +437,7 @@ section {
 }
 
 .image img{
-    width: 30%;
+    width: 40%;
     float: left;
     padding-right: 20px;padding-top: 20px;
 }
@@ -531,8 +531,7 @@ blockquote p{
 /* ABOUT US PAGE START ------------------------------------------------*/
 #about_us_content, #feedback, #contact{
     font-family: 'Oxygen', sans-serif;
-    width: 40em;
-    height: 600px;
+    width: 36em;
     position: relative;top: 1em;
     float: right;
 }
@@ -595,7 +594,7 @@ blockquote p{
     font-family: 'Oxygen',sans-serif;
     font-size: 10pt;
     position: relative;top: 5em;
-    right: -100px;
+    right: -50px;
     width: 675px;
 }
 
@@ -720,6 +719,7 @@ blockquote p{
     background: url("images/contentimages/subfooter.jpg");
     margin-left: -20px;
     width: 1024px;
+    padding-bottom: 10px;
 }
 
 #subfooter ul li{
