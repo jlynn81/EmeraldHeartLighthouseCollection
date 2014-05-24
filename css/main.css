@@ -166,9 +166,8 @@ button:hover{
     z-index: 500;
 }
 #nav > ul > li {
-    display: block;
+    display: inline-block;
     position: relative;
-    float: left;
     margin: 0;
     padding: 0;
 }
@@ -181,7 +180,7 @@ button:hover{
     text-decoration: none;
 }
 #nav > ul > li > a {
-    font-size: 14px;
+    font-size: 12pt;
     font-weight: bold;
     padding: 15px 20px;
     color: #0f403d;
@@ -544,7 +543,7 @@ blockquote p{
     padding-bottom: 10px;
 }
 
-#about_us_content p{
+#about_us_content p, #contact > p{
     font-size: 12pt;
     color: #4B706E;
     padding-top: .5%;
@@ -554,15 +553,10 @@ blockquote p{
 /* CONTACT INFORMATION PAGE --------------------------------------------*/
 
 
-#contact ul li, #contact p{
+#contact ul li{
     font-size: 14pt;
     color: #4B706E;
     padding-bottom: 10px;
-}
-
-#contact > p{
-    padding-top: 20px;
-    font-size: 12pt;
 }
 
 #contact form{

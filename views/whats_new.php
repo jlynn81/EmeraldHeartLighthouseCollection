@@ -56,10 +56,6 @@
     </nav>
     <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
-    <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION INTRODUCED AT A LATER DATE----------------->
-    <br>
-        <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-
 
 </header>
 

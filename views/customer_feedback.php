@@ -57,11 +57,7 @@
         </ul>
     </nav>
     <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
-    <br>
-    <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-    <!--<p>Welcome!-->
-    <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-    <!--</p>-->
+
 
 </header>
 
