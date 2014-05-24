@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +82,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="8" selection-start="4306" selection-end="4306" vertical-scroll-proportion="0.7635468" vertical-offset="1135" max-vertical-offset="1824">
+            <state line="98" column="12" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.6321839" vertical-offset="1183" max-vertical-offset="1792">
               <folding />
             </state>
           </provider>
@@ -689,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="8" selection-start="4306" selection-end="4306" vertical-scroll-proportion="0.7635468" vertical-offset="1135" max-vertical-offset="1824">
+        <state line="98" column="12" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.6321839" vertical-offset="1183" max-vertical-offset="1792">
           <folding />
         </state>
       </provider>
