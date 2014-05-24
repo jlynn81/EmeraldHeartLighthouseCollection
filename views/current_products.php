@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html ng-app="items">
 <head lang="en">
@@ -60,7 +61,7 @@
 
 
 
-        <div class="item_list">
+        <div class="item_list" action="?action=index.php">
             <div class="item">
                 <a href="../detailProducts/mysticalCarousel.php">
                     <img src="../css/images/product-images/unicorn1.jpg">
