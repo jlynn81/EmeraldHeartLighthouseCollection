@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about_us.html" afterPath="$PROJECT_DIR$/views/about_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/current_products.php" afterPath="$PROJECT_DIR$/views/current_products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shopping_cart.html" afterPath="$PROJECT_DIR$/views/shopping_cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.html" afterPath="$PROJECT_DIR$/views/contact.html" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,28 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="customer_feedback.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="customer_feedback.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/customer_feedback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="84" selection-start="7125" selection-end="7181" vertical-scroll-proportion="-118.4" vertical-offset="0" max-vertical-offset="3536">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_us.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/about_us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="3810" selection-end="3810" vertical-scroll-proportion="-28.16" vertical-offset="688" max-vertical-offset="1856">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="532" column="38" selection-start="12301" selection-end="12301" vertical-scroll-proportion="0.6169429" vertical-offset="8177" max-vertical-offset="12240">
+            <state line="185" column="84" selection-start="7125" selection-end="7181" vertical-scroll-proportion="5.714286" vertical-offset="0" max-vertical-offset="3536">
               <folding />
             </state>
           </provider>
@@ -103,7 +82,6 @@
         <option value="$PROJECT_DIR$/detailProducts/seashellwreath.html" />
         <option value="$PROJECT_DIR$/detailProducts/underwaterdream.html" />
         <option value="$PROJECT_DIR$/detailProducts/waterlighthouse.html" />
-        <option value="$PROJECT_DIR$/views/contact.html" />
         <option value="$PROJECT_DIR$/views/product_details.php" />
         <option value="$PROJECT_DIR$/application/models/products.php" />
         <option value="$PROJECT_DIR$/views/footer.inc" />
@@ -119,6 +97,7 @@
         <option value="$PROJECT_DIR$/views/current_products.php" />
         <option value="$PROJECT_DIR$/views/about_us.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/views/contact.html" />
       </list>
     </option>
   </component>
@@ -213,38 +192,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmeraldHeartLighthouseCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,13 +465,6 @@
         <state line="126" column="55" selection-start="4690" selection-end="4690" vertical-scroll-proportion="0.34177214" vertical-offset="1800" max-vertical-offset="2432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.6557692" vertical-offset="507" max-vertical-offset="1856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/productModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="31" selection-start="497" selection-end="497" vertical-scroll-proportion="0.693032" vertical-offset="0" max-vertical-offset="531">
@@ -639,23 +579,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer_feedback.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="84" selection-start="7125" selection-end="7181" vertical-scroll-proportion="-118.4" vertical-offset="0" max-vertical-offset="3536">
+        <state line="532" column="38" selection-start="12301" selection-end="12301" vertical-scroll-proportion="0.6169429" vertical-offset="8177" max-vertical-offset="12240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3810" selection-end="3810" vertical-scroll-proportion="-28.16" vertical-offset="688" max-vertical-offset="1856">
+        <state line="87" column="0" selection-start="3810" selection-end="3810" vertical-scroll-proportion="1.3258004" vertical-offset="688" max-vertical-offset="1856">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/views/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="532" column="38" selection-start="12301" selection-end="12301" vertical-scroll-proportion="0.6169429" vertical-offset="8177" max-vertical-offset="12240">
+        <state line="59" column="80" selection-start="2007" selection-end="2007" vertical-scroll-proportion="-0.6836158" vertical-offset="1307" max-vertical-offset="1856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customer_feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="84" selection-start="7125" selection-end="7181" vertical-scroll-proportion="5.714286" vertical-offset="0" max-vertical-offset="3536">
           <folding />
         </state>
       </provider>
