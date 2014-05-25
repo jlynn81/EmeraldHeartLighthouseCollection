@@ -24,7 +24,7 @@
 
 
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"/></a></h1>
+    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""/></a></h1>
 
     <form>
 
@@ -36,7 +36,7 @@
 
     </form>
 
-    <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+    <!-- MAIN NAVIGATION START -->
     <nav id='nav'>
         <ul>
 
@@ -54,7 +54,7 @@
 
         </ul>
     </nav>
-    <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+    <!-- MAIN NAVIGATION END -->
 
 
 </header>
@@ -63,10 +63,10 @@
 
         <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
 
-        <div class="item_list" action="product_details.php">
+        <div class="item_list">
             <div class="item">
                 <a href="../detailProducts/mysticalCarousel.php">
-                    <img src="../css/images/product-images/unicorn1.jpg">
+                    <img src="../css/images/product-images/unicorn1.jpg" alt="">
                     <p id="product_name">Mystical Carousel Unicorn</p>
                     <p id="product_amount">$40.00</p>
                 </a>
@@ -74,14 +74,14 @@
 
             <div class="item">
                 <a href="../detailProducts/underwaterdream.php">
-                    <img src="../css/images/product-images/underwaterdream.jpg">
+                    <img src="../css/images/product-images/underwaterdream.jpg" alt="">
                     <p id="product_name4">Under Water Dream</p>
                     <p id="product_amount4">$150.00</p>
                 </a>
             </div>
             <div class="item">
                 <a href="../detailProducts/maskofdreams.php">
-                    <img src="../css/images/product-images/mask.jpg">
+                    <img src="../css/images/product-images/mask.jpg" alt="">
                     <p id="product_name5">Mystical Mask of Dreams</p>
                     <p id="product_amount5">$200.00</p>
                 </a>

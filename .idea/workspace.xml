@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/whats_new.php" afterPath="$PROJECT_DIR$/views/whats_new.php" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="87" selection-start="833" selection-end="833" vertical-scroll-proportion="-0.8648649" vertical-offset="816" max-vertical-offset="1792">
+            <state line="39" column="44" selection-start="1289" selection-end="1306" vertical-scroll-proportion="0.41312742" vertical-offset="410" max-vertical-offset="1792">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,6 @@
         <option value="$PROJECT_DIR$/detailProducts/seashellwreath.html" />
         <option value="$PROJECT_DIR$/detailProducts/underwaterdream.html" />
         <option value="$PROJECT_DIR$/detailProducts/waterlighthouse.html" />
-        <option value="$PROJECT_DIR$/views/whats_new.php" />
         <option value="$PROJECT_DIR$/views/shopping_cart.html" />
         <option value="$PROJECT_DIR$/views/contact.html" />
         <option value="$PROJECT_DIR$/views/product_details.php" />
@@ -98,6 +97,7 @@
         <option value="$PROJECT_DIR$/views/customer_feedback.php" />
         <option value="$PROJECT_DIR$/views/email_signup_page.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/views/whats_new.php" />
       </list>
     </option>
   </component>
@@ -539,13 +539,6 @@
         <state line="126" column="55" selection-start="4690" selection-end="4690" vertical-scroll-proportion="0.34177214" vertical-offset="1800" max-vertical-offset="2432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/whats_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.34318554" vertical-offset="703" max-vertical-offset="2192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.6557692" vertical-offset="507" max-vertical-offset="1856">
@@ -672,9 +665,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/whats_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="30" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.6384181" vertical-offset="701" max-vertical-offset="2192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="87" selection-start="833" selection-end="833" vertical-scroll-proportion="-0.8648649" vertical-offset="816" max-vertical-offset="1792">
+        <state line="39" column="44" selection-start="1289" selection-end="1306" vertical-scroll-proportion="0.41312742" vertical-offset="410" max-vertical-offset="1792">
           <folding />
         </state>
       </provider>
