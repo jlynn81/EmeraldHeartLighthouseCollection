@@ -40,8 +40,6 @@
             <li><a href="../views/email_signup_page.html">Email Sign-up</a></li>
             <li> <a href="../views/contact.html">Customer Care</a></li>
         </ul>
-        <label for="search"><input id="search" type="text" class="input">Search</label>
-
     </form>
 
     <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
@@ -64,10 +62,6 @@
     </nav>
     <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
-    <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-    <p>Welcome!
-        <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-    </p>
 
 </header>
 

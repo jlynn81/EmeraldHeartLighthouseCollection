@@ -23,18 +23,16 @@
 <body>
     <header>
 
-        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
+        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
         <form>
 
             <ul>
                 <li><a href="email_signup_page.html">Email Sign-up</a></li>
                 <li> <a href="contact.html">Customer Care</a></li>
             </ul>
-            <label for="search"><input id="search" type="text" class="input">Search</label>
-
         </form>
 
-        <!--MAIN NAVIGATION START-->
+        <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
         <nav id='nav'>
             <ul>
 
@@ -52,11 +50,11 @@
 
             </ul>
         </nav>
-        <!--MAIN NAVIGATION END-->
+        <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
 
     </header>
 
-    <!-- BEGIN CENTER CONTENT OF PAGE -->
+    <!-- BEGIN CENTER CONTENT OF PAGE -------------------------------------->
 
     <section id="sign_up">
 
@@ -68,13 +66,13 @@
 
             <form name="email_form" id="email_form" method="post">
                 <input type="text" name="name" placeholder="Your First and Last Name"/>
-                <input type="text" name="email" placeholder="E-mail Address"/>
+                <input type="email" name="email" placeholder="E-mail Address"/>
                 <input type="text" name="confirm_email" placeholder="Confirm E-mail Address"/>
                 <p>Press Submit to Sign-up for the monthly Newsletter</p>
                 <button type="submit" value="Submit" class="button">Submit</button>
             </form>
 
-        <script type="text/javascript"></script>
+        <script type="text/javascript" src="../javascripts/validate.js"></script>
 
 
     </section>

@@ -28,8 +28,6 @@
                 <li><a href="email_signup_page.html">Email Sign-up</a></li>
                 <li> <a href="contact.html">Customer Care</a></li>
             </ul>
-            <label for="search"><input id="search" type="text" class="input">Search</label>
-
         </form>
 
         <!-- MAIN NAVIGATION START -->

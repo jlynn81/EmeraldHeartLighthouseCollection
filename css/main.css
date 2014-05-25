@@ -58,8 +58,9 @@ header p{
 
 /* TOP RIGHT NAVIGATION INFORMATION ----------------------------------- */
 header form{
-    width: 306px;
     float: right;
+    position: relative;
+    top: 60px;
 }
 
 header form li{
@@ -689,6 +690,7 @@ blockquote p{
     font-size: 14pt;
     background-image: url("../css/images/contentimages/nav_bkg.gif");
     border-color: #ff9600;
+    padding-right: 15.16em;
 }
 
 #accordion div p{
@@ -702,6 +704,10 @@ blockquote p{
     color: #4B706E;
     list-style: disc outside none;
     padding-left: 30px;padding-top: 10px;
+}
+
+#ui-accordion-accordion-panel-0{
+    border-color: #ff9600;
 }
 
 #backNavigation{
