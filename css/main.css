@@ -529,7 +529,11 @@ blockquote p{
 }
 
 /* ABOUT US PAGE START ------------------------------------------------*/
-#about_us_content, #feedback, #contact{
+#about_us_content{
+    font-family: 'Oxygen', sans-serif;
+}
+
+#feedback, #contact{
     font-family: 'Oxygen', sans-serif;
     width: 36em;
     position: relative;top: 1em;

@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html ng-app="items">
+<html>
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
 <body>
     <header>
 
-        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
         <form>
 
             <ul>
@@ -32,7 +32,7 @@
 
         </form>
 
-        <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+        <!-- MAIN NAVIGATION START -->
         <nav id='nav'>
             <ul>
 
@@ -50,7 +50,7 @@
 
             </ul>
         </nav>
-        <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+        <!-- MAIN NAVIGATION END -->
 
 
     </header>
@@ -61,45 +61,45 @@
 
 
 
-        <div class="item_list" action="?action=index.php">
+        <div class="item_list">
             <div class="item">
                 <a href="../detailProducts/mysticalCarousel.php">
-                    <img src="../css/images/product-images/unicorn1.jpg">
+                    <img src="../css/images/product-images/unicorn1.jpg" alt="unicorn1">
                     <p id="product_name">Mystical Carousel Unicorn</p>
                     <p id="product_amount">$40.00</p>
                 </a>
             </div>
             <div class="item1">
                 <a href="../detailProducts/clown1.php">
-                    <img src="../css/images/product-images/clown1.jpg">
+                    <img src="../css/images/product-images/clown1.jpg" alt="clown1">
                     <p id="product_name1">Star Clown</p>
                     <p id="product_amount1">$15.00</p>
                 </a>
             </div>
             <div class="item2">
                 <a href="../detailProducts/holidaywreath.php">
-                    <img src="../css/images/product-images/HolidayWreath.jpg">
+                    <img src="../css/images/product-images/HolidayWreath.jpg" alt="holidaywreath">
                     <p id="product_name2">Holiday Wreath</p>
                     <p id="product_amount2">$50.00</p>
                 </a>
             </div>
             <div class="item3">
                 <a href="../detailProducts/waterlighthouse.php">
-                    <img src="../css/images/product-images/waterlighthouse.jpg">
+                    <img src="../css/images/product-images/waterlighthouse.jpg" alt="waterlighthouse">
                     <p id="product_name3">Lighthouse Hurricane Statue</p>
                     <p id="product_amount3">$175.00</p>
                 </a>
             </div>
             <div class="item4">
                 <a href="../detailProducts/underwaterdream.php">
-                    <img src="../css/images/product-images/underwaterdream.jpg">
+                    <img src="../css/images/product-images/underwaterdream.jpg" alt="underwaterdream">
                     <p id="product_name4">Under Water Dream</p>
                     <p id="product_amount4">$150.00</p>
                 </a>
             </div>
             <div class="item5">
                 <a href="../detailProducts/maskofdreams.php">
-                    <img src="../css/images/product-images/mask.jpg">
+                    <img src="../css/images/product-images/mask.jpg" alt="mask">
                     <p id="product_name5">Mystical Mask of Dreams</p>
                     <p id="product_amount5">$200.00</p>
                 </a>
