@@ -13,3 +13,5 @@ foreach($data as $d){
     echo "<a href=?action=product_details&item=".$d["item"]."><a/>";
     echo "<br>";
 }
+
+?>
