@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="items">
+<html>
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
 
     <header>
 
-        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
         <form>
 
             <ul>
@@ -45,7 +45,7 @@
 
         </form>
 
-        <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+        <!-- MAIN NAVIGATION START -->
         <nav id='nav'>
             <ul>
 
@@ -63,13 +63,7 @@
 
             </ul>
         </nav>
-        <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
-
-        <!-- WELCOME MESSAGE AND SHOPPING CART INFORMATION ----------------->
-        <!--<p>Welcome!-->
-            <!--<a href="account_email_information.inc"> Sign In</a> or <a href="account_email_information.inc"> Create a Account</a> -->
-        <!--</p>-->
-        <br>
+        <!-- MAIN NAVIGATION END -->
 
     </header>
 
@@ -96,7 +90,7 @@
             <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="3BRAGNARTYZTS">
-                <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
+                <button type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
                 <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
             </form>
 

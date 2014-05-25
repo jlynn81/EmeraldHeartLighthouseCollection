@@ -2,8 +2,8 @@
 
 (function(){
 
-    var name = document.getElementById('name');
-    var email = document.getElementById('email');
+    var name = document.getElementById('field1');
+    var email = document.getElementById('field5');
     var phone = document.getElementById('field6');
     var subBtn = document.getElementById('submit');
         subBtn.addEventListener('click', onClick);

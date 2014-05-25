@@ -27,7 +27,7 @@
 <body>
 <header>
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
     <form>
 
         <ul>
@@ -38,7 +38,7 @@
 
     </form>
 
-    <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+    <!-- MAIN NAVIGATION START -->
     <nav id='nav'>
         <ul>
 
@@ -56,14 +56,14 @@
 
         </ul>
     </nav>
-    <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+    <!-- MAIN NAVIGATION END -->
 
 
 </header>
 
 <section id="customer_feedback_form">
 
-    <p class="image"><img src="../css/images/contentimages/feedback.png"> </p>
+    <p class="image"><img src="../css/images/contentimages/feedback.png" alt=""> </p>
 
     <div id="feedback">
         <h1>Your Feedback is Important to Us!</h1>
@@ -72,8 +72,6 @@
 
 
         <div class="TTWForm-container">
-
-
 
             <form  class="TTWForm" name="TTWForm" method="post" novalidate="">
 
