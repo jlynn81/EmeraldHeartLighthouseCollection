@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/models/products.php" afterPath="$PROJECT_DIR$/views/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about_us.html" afterPath="$PROJECT_DIR$/views/about_us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="748" column="28" selection-start="16074" selection-end="16074" vertical-scroll-proportion="0.0" vertical-offset="11457" max-vertical-offset="12112">
+            <state line="509" column="17" selection-start="11912" selection-end="11912" vertical-scroll-proportion="0.55801105" vertical-offset="7841" max-vertical-offset="12176">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="about_us.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="3410" selection-end="3410" vertical-scroll-proportion="2.2548263" vertical-offset="0" max-vertical-offset="1792">
+            <state line="85" column="0" selection-start="3753" selection-end="3753" vertical-scroll-proportion="-13.36" vertical-offset="1026" max-vertical-offset="1952">
               <folding />
             </state>
           </provider>
@@ -52,7 +47,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="-15.84" vertical-offset="132" max-vertical-offset="688">
+            <state line="33" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="-21.12" vertical-offset="0" max-vertical-offset="688">
               <folding />
             </state>
           </provider>
@@ -108,7 +103,6 @@
         <option value="$PROJECT_DIR$/detailProducts/waterlighthouse.html" />
         <option value="$PROJECT_DIR$/views/whats_new.php" />
         <option value="$PROJECT_DIR$/views/shopping_cart.html" />
-        <option value="$PROJECT_DIR$/views/about_us.html" />
         <option value="$PROJECT_DIR$/views/email_signup_page.html" />
         <option value="$PROJECT_DIR$/views/customer_feedback.php" />
         <option value="$PROJECT_DIR$/views/contact.html" />
@@ -121,6 +115,7 @@
         <option value="$PROJECT_DIR$/views/header.inc" />
         <option value="$PROJECT_DIR$/current_products.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/about_us.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -590,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="2160" selection-end="2160" vertical-scroll-proportion="0.4576923" vertical-offset="610" max-vertical-offset="1952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="2" selection-start="298" selection-end="298" vertical-scroll-proportion="0.3902439" vertical-offset="0" max-vertical-offset="533" />
@@ -646,23 +634,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="3410" selection-end="3410" vertical-scroll-proportion="2.2548263" vertical-offset="0" max-vertical-offset="1792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="-15.84" vertical-offset="132" max-vertical-offset="688">
+        <state line="33" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="-21.12" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="3753" selection-end="3753" vertical-scroll-proportion="-13.36" vertical-offset="1026" max-vertical-offset="1952">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="748" column="28" selection-start="16074" selection-end="16074" vertical-scroll-proportion="0.0" vertical-offset="11457" max-vertical-offset="12112">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="3410" selection-end="3410" vertical-scroll-proportion="2.2548263" vertical-offset="0" max-vertical-offset="1792">
+        <state line="509" column="17" selection-start="11912" selection-end="11912" vertical-scroll-proportion="0.55801105" vertical-offset="7841" max-vertical-offset="12176">
           <folding />
         </state>
       </provider>

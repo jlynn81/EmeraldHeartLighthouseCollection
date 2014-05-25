@@ -505,9 +505,9 @@ blockquote p{
     padding-bottom: 10px;
 }
 
-#feedback p{
+#feedback > p{
     text-align: left;
-    font-size: 10pt;
+    font-size: 12pt;
     color: #4B706E;
     padding-bottom: 40px;
     line-height: 1.3em;
@@ -546,6 +546,8 @@ blockquote p{
     font-size: 12pt;
     color: #4B706E;
     padding-top: .5%;
+    padding-bottom: 1.5%;
+    line-height: 1.5;
 }
 /* ABOUT US PAGE END ---------------------------------------------------*/
 
@@ -728,6 +730,8 @@ blockquote p{
     padding: 20px 36px 10px 20px;
     width: 300px;
     display: inline-block;
+    color: #0F403D;
+
 
 }
 
