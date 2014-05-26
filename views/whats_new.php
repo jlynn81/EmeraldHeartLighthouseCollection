@@ -35,7 +35,7 @@
     </form>
 
     <!-- MAIN NAVIGATION START -->
-    <nav id='nav'>
+    <nav>
         <ul>
 
             <li class='active'><a href='whats_new.php'><span>What's New</span></a></li>
