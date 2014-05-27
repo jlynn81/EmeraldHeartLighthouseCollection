@@ -1,3 +1,20 @@
+<?php
+
+if($_POST["submit_btn"]) {
+    $recipient="emeraldheartlc@gmail.com";
+    $subject="Customer Feedback";
+    $sender=$_POST["field1"];
+    $senderEmail=$_POST["field6"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your feedback has been sent.</p>";
+}
+
+?>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
@@ -68,7 +85,7 @@
 
         <div class="TTWForm-container">
 
-            <form  class="TTWForm" name="TTWForm" method="post" novalidate="" action="mail.php" enctype="text/plain">
+            <form  class="TTWForm" name="TTWForm" method="post" novalidate="" action="../../js/validate.js" enctype="text/plain">
 
 
                 <div id="field1-container" class="field f_75">
@@ -173,7 +190,7 @@
 
 
                 <div id="form-submit" class="field f_100 clearfix submit">
-                    <button id="f_submit" value="Submit Form" type="submit" name="submit_btn" onclick="form" >Submit Form</button>
+                    <button id="f_submit" value="Submit Form" type="submit" name="submit_btn" >Submit Form</button>
                 </div>
 
 

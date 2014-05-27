@@ -39,7 +39,8 @@
 
         if (!pass || form.value.length < 2){
             errorMsg.style.display='block';
-            form.style.backgroundColor = 'red';
+            form.style.borderColor = '#A63417';
+            form.style.shadowBlur = '2px';
         } else if (pass && form.value.length > 5){
             errorMsg.style.display='none';
             form.style.backgroundColor = 'white';

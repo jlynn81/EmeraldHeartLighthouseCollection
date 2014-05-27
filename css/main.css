@@ -503,10 +503,6 @@ blockquote p{
     line-height: 1.3em;
 }
 
-#feedback form{
-
-}
-
 #feedback textarea{
     border: solid 1px #6fadcf;
     border-radius: 6px;
