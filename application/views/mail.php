@@ -1,11 +1,10 @@
 <?php
 
-$firstname = $_POST['txt_FirstName'];
-$lastname = $_POST['txt_LastName'];
+$name = $_POST['field1'];
 
 $to = "emeraldheartlc@gmail.com";
 $subject = "Customer Feedback Form Submission";
-$message = "$firstname \n\n $lastname";
+$message = "$name";
 $from = "txt_Email";
 $headers = "From:" . $from;
 

@@ -47,7 +47,7 @@
 
             <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='customer_feedback.php'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -68,7 +68,7 @@
 
         <div class="TTWForm-container">
 
-            <form  class="TTWForm" name="TTWForm" method="post" novalidate="">
+            <form  class="TTWForm" name="TTWForm" method="post" novalidate="" action="mail.php" enctype="text/plain">
 
 
                 <div id="field1-container" class="field f_75">
@@ -173,7 +173,7 @@
 
 
                 <div id="form-submit" class="field f_100 clearfix submit">
-                    <button id="f_submit" value="Submit Form" type="submit" onclick="validate(form)">Submit Form</button>
+                    <button id="f_submit" value="Submit Form" type="submit" name="submit_btn" onclick="form" >Submit Form</button>
                 </div>
 
 
@@ -189,7 +189,7 @@
     <div id="subfooter">
         <ul>
             <li><a href="whats_new.php">What's New</a> </li>
-            <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
             <li><a href="about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>
