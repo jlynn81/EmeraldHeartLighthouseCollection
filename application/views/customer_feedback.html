@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +8,23 @@
     <title>Emerald Heart Lighthouse Collection</title>
 
     <!--Included Third Party Library and Javascript and CSS-->
-    <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="../css/uniform.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="../../css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="../../css/uniform.css" media="screen" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="../javascripts/jquery.tools.js"></script>
-    <script type="text/javascript" src="../javascripts/jquery.uniform.min.js"></script>
-    <script type="text/javascript" src="../javascripts/main.js"></script>
-    <script type="text/javascript" src="../javascripts/validate.js"></script>
-
+    <script type="text/javascript" src="../../js/jquery.tools.js"></script>
+    <script type="text/javascript" src="../../js/jquery.uniform.min.js"></script>
 
 
     <!-- Included Application specific CSS and Javascript -->
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
 
 </head>
 
 <body>
 <header>
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
+    <h1><a href="../../index.html"><img src="../../css/images/contentimages/logo.png" alt=""></a></h1>
     <form>
 
         <ul>
@@ -50,7 +47,7 @@
 
             <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='customer_feedback.php'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -61,7 +58,7 @@
 
 <section id="customer_feedback_form">
 
-    <p class="image"><img src="../css/images/contentimages/feedback.png" alt=""> </p>
+    <p class="image"><img src="../../css/images/contentimages/feedback.png" alt=""> </p>
 
     <div id="feedback">
         <h1>Your Feedback is Important to Us!</h1>
@@ -79,6 +76,7 @@
                     <label for="field1">Your Name</label>
                     <label id="field1_req" class="required">*</label>
                     <input name="field1" id="field1" required="required" type="text">
+                    <span id="field1_error" class="f_errors">Example: John Smith</span>
 
                 </div>
 
@@ -87,6 +85,7 @@
                     <label for="field6">Your Phone</label>
                     <label id="field6_req" class="required">*</label>
                     <input name="phone" id="field6" type="text">
+                    <span id="field6_error" class="f_errors">Please use this format (123) 456-7890</span>
                 </div>
 
 
@@ -94,79 +93,74 @@
                     <label for="field5">Email Address</label>
                     <label id="field5_req" class="required">*</label>
                     <input name="email" id="field5" required="required" type="email">
+                    <span id="field5_error" class="f_errors">Example: user@domain.com</span>
                 </div>
 
 
                 <div id="field3-container" class="field radio-group required f_50">
-                    <label for="field3-1">
-                        How did you find us?
-                    </label>
+                    <label for="field3-1">How did you find us?</label>
 
 
                     <div class="option clearfix">
                         <input name="how" id="field3-1" value="Friend" type="radio">
-                    <span class="option-title">
-                         Friend
-                    </span>
+                        <span class="option-title">Friend</span>
                     </div>
 
 
                     <div class="option clearfix">
-                        <label for="field3-2"></label><input name="how" id="field3-2" value="Internet Search" type="radio">
-                    <span class="option-title">
-                         Internet Search
-                    </span>
+                        <label for="field3-2"></label>
+                        <input name="how" id="field3-2" value="Internet Search" type="radio">
+                        <span class="option-title">Internet Search </span>
                     </div>
 
 
                     <div class="option clearfix">
-                        <label for="field3-3"></label><input name="how" id="field3-3" value="Newspaper" type="radio">
-                    <span class="option-title">
-                         Newspaper
-                    </span>
+                        <label for="field3-3"></label>
+                        <input name="how" id="field3-3" value="Newspaper" type="radio">
+                        <span class="option-title">Newspaper</span>
                     </div>
 
 
                     <div class="option clearfix">
-                        <label for="how-4"></label><input name="how" id="how-4" value="Other" type="radio">
-                    <span class="option-title">
-                         Other
-                    </span>
+                        <label for="how-4"></label>
+                        <input name="how" id="how-4" value="Other" type="radio">
+                        <span class="option-title">Other</span>
                         <br>
                     </div>
                 </div>
 
 
                 <div id="field4-container" class="field checkbox-group required f_50">
-                    <label for="field4-1">
-                        Please let us know which way is most convenient to be contacted
-                    </label>
+                    <label for="field4-1">Please let us know which way is most convenient to be contacted</label>
 
 
                     <div class="option clearfix">
                         <input name="contact" id="field4-1" value="Email" type="checkbox">
-                    <span class="option-title">Email</span>
+                        <span class="option-title">Email</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
-                        <label for="field4-2"></label><input name="contact" id="field4-2" value="Phone" type="checkbox">
-                    <span class="option-title">Phone</span>
+                        <label for="field4-2"></label>
+                        <input name="contact" id="field4-2" value="Phone" type="checkbox">
+                        <span class="option-title">Phone</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
-                        <label for="field4-3"></label><input name="contact" id="field4-3" value="Neither" type="checkbox">
-                    <span class="option-title">Neither</span>
+                        <label for="field4-3"></label>
+                        <input name="contact" id="field4-3" value="Neither" type="checkbox">
+                        <span class="option-title">Neither</span>
                         <br>
                     </div>
 
 
                     <div class="option clearfix">
-                        <label for="contact-4"></label><input name="contact" id="contact-4" value="Both" type="checkbox">
-                    <span class="option-title">Both</span>
+                        <label for="contact-4"></label>
+                        <input name="contact" id="contact-4" value="Both" type="checkbox">
+                        <span class="option-title">Both</span>
                         <br>
                     </div>
                 </div>
@@ -179,8 +173,10 @@
 
 
                 <div id="form-submit" class="field f_100 clearfix submit">
-                    <button onclick="alert('Your form was successfully submitted!')" id="submit" value="Submit Form" type="submit">Submit Form</button>
+                    <button id="f_submit" value="Submit Form" type="submit" onclick="validate(form)">Submit Form</button>
                 </div>
+
+
             </form>
         </div>
 
@@ -192,9 +188,9 @@
 <section id="bottom_nav">
     <div id="subfooter">
         <ul>
-            <li><a href="../views/whats_new.php">What's New</a> </li>
-            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
-            <li><a href="../views/about_us.html">About Us</a> </li>
+            <li><a href="whats_new.php">What's New</a> </li>
+            <li><a href="../views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>
             <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
@@ -207,6 +203,8 @@
     <p>&copy; April 2014</p>
     <p>Website Maintained by <a href="mailto:whymsicaldesigns@gmail.com">Whymsical Designs</a></p>
 </footer>
+
+<script src="../../js/validate.js" type="text/javascript"></script>
 
 </body>
 </html>

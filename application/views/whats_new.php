@@ -8,14 +8,14 @@
 
     <!--Included Third Party Library and Javascript and CSS-->
     <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <script src="../javascripts/main.js" type="text/javascript"></script>
-    <script src="../javascripts/productInfo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <script src="../../js/main.js" type="text/javascript"></script>
+    <script src="../../js/productInfo.js" type="text/javascript"></script>
 
 </head>
 
@@ -24,7 +24,7 @@
 
 
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""/></a></h1>
+    <h1><a href="../../index.html"><img src="../../css/images/contentimages/logo.png" alt=""/></a></h1>
 
     <form>
 
@@ -48,7 +48,7 @@
 
             <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='customer_feedback.php'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -63,23 +63,23 @@
 
         <div class="item_list">
             <div class="item">
-                <a href="../detailProducts/mysticalCarousel.php">
-                    <img src="../css/images/product-images/unicorn1.jpg" alt="">
+                <a href="../../detailProducts/mysticalCarousel.php">
+                    <img src="../../css/images/product-images/unicorn1.jpg" alt="">
                     <p id="product_name">Mystical Carousel Unicorn</p>
                     <p id="product_amount">$40.00</p>
                 </a>
             </div>
 
             <div class="item">
-                <a href="../detailProducts/underwaterdream.php">
-                    <img src="../css/images/product-images/underwaterdream.jpg" alt="">
+                <a href="../../detailProducts/underwaterdream.php">
+                    <img src="../../css/images/product-images/underwaterdream.jpg" alt="">
                     <p id="product_name4">Under Water Dream</p>
                     <p id="product_amount4">$150.00</p>
                 </a>
             </div>
             <div class="item">
-                <a href="../detailProducts/maskofdreams.php">
-                    <img src="../css/images/product-images/mask.jpg" alt="">
+                <a href="../../detailProducts/maskofdreams.php">
+                    <img src="../../css/images/product-images/mask.jpg" alt="">
                     <p id="product_name5">Mystical Mask of Dreams</p>
                     <p id="product_amount5">$200.00</p>
                 </a>
@@ -110,9 +110,9 @@
     <section id="bottom_nav">
         <div id="subfooter">
             <ul>
-                <li><a href="../views/whats_new.php">What's New</a> </li>
-                <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
-                <li><a href="../views/about_us.html">About Us</a> </li>
+                <li><a href="whats_new.php">What's New</a> </li>
+                <li><a href="customer_feedback.html">Customer Feedback</a> </li>
+                <li><a href="about_us.html">About Us</a> </li>
                 <li>Customer Service: 1-800-123-4567 </li>
                 <li>Orders: 1-800-456-7890</li>
                 <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
