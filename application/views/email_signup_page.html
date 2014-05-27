@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -46,7 +44,7 @@
 
                 <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
                 <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-                <li class='active last'><a href='customer_feedback.php'><span>Customer Feedback</span></a></li>
+                <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
 
             </ul>
         </nav>
@@ -56,6 +54,8 @@
 
     <!-- BEGIN CENTER CONTENT OF PAGE -------------------------------------->
 
+
+
     <section id="sign_up">
 
         <p><img src="../../css/images/contentimages/email.png" alt=""/> </p>
@@ -64,43 +64,40 @@
 
         <h2> Email Sign-up</h2>
 
-            <form name="email_form" id="email_form" method="post" action="../../js/validate.js">
+
+            <form name="email_form" id="email_form" method="post" action="mail.php">
 
                 <div id="field1-container" class="field f_75">
                     <p>* Denotes a Required Field For Email Sign-up</p>
-                    <label for="field1">Your Name</label>
-                    <label id="field1_req" class="required">*</label>
+                    <label for="field1" id="field1_req" class="required">Your Name *</label>
                     <input name="field1" id="field1" required="required" type="text" placeholder="John Smith">
                     <span id="field1_error" class="f_errors"></span>
 
                 </div>
                 <div id="field5-container" class="field f_75">
-                    <label for="field5">Email Address</label>
-                    <label id="field5_req" class="required">*</label>
+                    <label for="field5" id="field5_req" class="required">Email Address *</label>
                     <input name="email" id="field5" required="required" type="email" placeholder="user@domain.com">
                     <span id="field5_error" class="f_errors"></span>
                 </div>
                 <p>Press Submit to Sign-up for the monthly Newsletter</p>
-                <button type="submit" id="f_submit" value="Submit" >Submit</button>
+                <button type="submit" id="f_submit" value="Submit" name="submit_btn">Submit</button>
+
 
             </form>
 
 
     </section>
 
-
-    <section id="bottom_nav">
-        <div id="subfooter">
-            <ul>
-                <li><a href="whats_new.php">What's New</a> </li>
-                <li><a href="customer_feedback.php">Customer Feedback</a> </li>
-                <li><a href="about_us.html">About Us</a> </li>
-                <li>Customer Service: 1-800-123-4567 </li>
-                <li>Orders: 1-800-456-7890</li>
-                <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
-            </ul>
-        </div>
-    </section>
+    <div id="subfooter">
+        <ul>
+            <li><a href="whats_new.php">What's New</a> </li>
+            <li><a href="customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="about_us.html">About Us</a> </li>
+            <li>Customer Service: 1-800-123-4567 </li>
+            <li>Orders: 1-800-456-7890</li>
+            <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
+        </ul>
+    </div>
 
     <footer>
         <p>All Rights</p>

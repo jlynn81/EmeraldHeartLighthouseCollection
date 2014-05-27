@@ -56,7 +56,7 @@
 
             <li class='active'><a href='../application/views/about_us.html'><span>About Us</span></a></li>
             <li class="active"><a href="../application/views/contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='../application/views/customer_feedback.php'><span>Customer Feedback</span></a></li>
+            <li class='active last'><a href='../application/views/customer_feedback.html'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
@@ -114,18 +114,18 @@
 
     </section>
 
-<section id="bottom_nav">
+
     <div id="subfooter">
         <ul>
             <li><a href="../application/views/whats_new.php">What's New</a> </li>
-            <li><a href="../application/views/customer_feedback.php">Customer Feedback</a> </li>
+            <li><a href="../application/views/customer_feedback.html">Customer Feedback</a> </li>
             <li><a href="../application/views/about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>
             <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
         </ul>
     </div>
-</section>
+
 
 <script type="text/javascript" src="../js/main.js"></script>
 <script type="text/javascript" src="../js/productInfo.js"></script>
