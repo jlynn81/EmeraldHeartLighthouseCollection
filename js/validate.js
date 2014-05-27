@@ -24,14 +24,16 @@
         if (form == name){
             pattern = /^[a-zA-Z]+(([\'\,\.\- ][a-zA-Z ])?[a-zA-Z]*)*$/;
             pass = pattern.test(form.value);
-            console.log(form.value, pass);
+
+
         }else if(form == email){
             pattern = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             pass = pattern.test(form.value);
 
         }else if(form == phNum){
-            pattern = ^(?:\([2-9]\d{2}\)\ ?|[2-9]\d{2}(?:\-?|\ ?))[2-9]\d{2}[- ]?\d{4}$;
+            pattern = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
             pass = pattern.test(form.value);
+
         }
 
 

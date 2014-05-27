@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/clown1.php" afterPath="$PROJECT_DIR$/detailProducts/clown1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/current_products.php" afterPath="$PROJECT_DIR$/application/views/current_products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/customer_feedback.html" afterPath="$PROJECT_DIR$/application/views/customer_feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/holidaywreath.php" afterPath="$PROJECT_DIR$/detailProducts/holidaywreath.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/mail.php" afterPath="$PROJECT_DIR$/application/views/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/maskofdreams.php" afterPath="$PROJECT_DIR$/detailProducts/maskofdreams.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/mysticalCarousel.php" afterPath="$PROJECT_DIR$/detailProducts/mysticalCarousel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/validate.js" afterPath="$PROJECT_DIR$/js/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/waterlighthouse.php" afterPath="$PROJECT_DIR$/detailProducts/waterlighthouse.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
@@ -37,25 +32,16 @@
       <file leaf-file-name="email_signup_page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/email_signup_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="12" selection-start="2766" selection-end="2766" vertical-scroll-proportion="-17.28" vertical-offset="736" max-vertical-offset="1872">
+            <state line="83" column="0" selection-start="3390" selection-end="3390" vertical-scroll-proportion="-13.12" vertical-offset="1000" max-vertical-offset="1872">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer_feedback.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/customer_feedback.html">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="3755" selection-end="3755" vertical-scroll-proportion="-22.4" vertical-offset="960" max-vertical-offset="3392">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/validate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="32" selection-start="933" selection-end="933" vertical-scroll-proportion="0.48160535" vertical-offset="64" max-vertical-offset="1072">
+            <state line="751" column="12" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.27262443" vertical-offset="11775" max-vertical-offset="12848">
               <folding />
             </state>
           </provider>
@@ -64,16 +50,16 @@
       <file leaf-file-name="mail.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1712">
+            <state line="76" column="58" selection-start="2602" selection-end="2602" vertical-scroll-proportion="-16.32" vertical-offset="808" max-vertical-offset="1712">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whats_new.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/whats_new.php">
+      <file leaf-file-name="validate.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/validate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="67" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-32.0" vertical-offset="0" max-vertical-offset="2128">
+            <state line="35" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-9.6" vertical-offset="32" max-vertical-offset="1104">
               <folding />
             </state>
           </provider>
@@ -92,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jquery-ui-1.10.4.custom/development-bundle/themes/smoothness/jquery-ui.css" />
         <option value="$PROJECT_DIR$/jquery-ui-1.10.4.custom/development-bundle/themes/base/jquery-ui.css" />
         <option value="$PROJECT_DIR$/detailProducts/clown1.html" />
         <option value="$PROJECT_DIR$/views/current_products.html" />
@@ -124,7 +109,6 @@
         <option value="$PROJECT_DIR$/application/views/product_details.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/email_signup_page.inc" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/application/views/customer_feedback.php" />
         <option value="$PROJECT_DIR$/application/views/email_signup_page.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -141,8 +125,10 @@
         <option value="$PROJECT_DIR$/detailProducts/clown1.php" />
         <option value="$PROJECT_DIR$/detailProducts/mysticalCarousel.php" />
         <option value="$PROJECT_DIR$/application/views/mail.php" />
-        <option value="$PROJECT_DIR$/application/views/customer_feedback.html" />
+        <option value="$PROJECT_DIR$/js/jquery.tools.js" />
         <option value="$PROJECT_DIR$/js/validate.js" />
+        <option value="$PROJECT_DIR$/application/views/customer_feedback.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -236,7 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +236,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="detailProducts" />
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,6 +275,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -407,20 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="68" selection-start="4343" selection-end="4343" vertical-scroll-proportion="0.0" vertical-offset="1378" max-vertical-offset="2320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="2" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="304">
@@ -581,11 +558,6 @@
         <state line="16" column="2" selection-start="248" selection-end="248" vertical-scroll-proportion="0.28926554" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="725" column="0" selection-start="15653" selection-end="15653" vertical-scroll-proportion="0.0" vertical-offset="11423" max-vertical-offset="12320" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="43" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="5936" />
@@ -635,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/whats_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="67" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-32.0" vertical-offset="0" max-vertical-offset="2128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="5" selection-start="21" selection-end="21" vertical-scroll-proportion="0.018348623" vertical-offset="0" max-vertical-offset="2320">
@@ -677,30 +642,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/mail.php">
+    <entry file="file://$PROJECT_DIR$/application/views/whats_new.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1712">
+        <state line="50" column="67" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-0.5229358" vertical-offset="1256" max-vertical-offset="2128">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/email_signup_page.html">
+    <entry file="file://$PROJECT_DIR$/js/jquery.tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="12" selection-start="2766" selection-end="2766" vertical-scroll-proportion="-17.28" vertical-offset="736" max-vertical-offset="1872">
+        <state line="8" column="31" selection-start="189" selection-end="189" vertical-scroll-proportion="0.14479639" vertical-offset="0" max-vertical-offset="896">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/customer_feedback.html">
+    <entry file="file://$PROJECT_DIR$/js/jquery.uniform.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3755" selection-end="3755" vertical-scroll-proportion="-22.4" vertical-offset="960" max-vertical-offset="3392">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="32" selection-start="933" selection-end="933" vertical-scroll-proportion="0.48160535" vertical-offset="64" max-vertical-offset="1072">
+        <state line="35" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-9.6" vertical-offset="32" max-vertical-offset="1104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/customer_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="65" selection-start="775" selection-end="847" vertical-scroll-proportion="0.09174312" vertical-offset="192" max-vertical-offset="3408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/email_signup_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="3390" selection-end="3390" vertical-scroll-proportion="-13.12" vertical-offset="1000" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="58" selection-start="2602" selection-end="2602" vertical-scroll-proportion="-16.32" vertical-offset="808" max-vertical-offset="1712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="751" column="12" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.27262443" vertical-offset="11775" max-vertical-offset="12848">
           <folding />
         </state>
       </provider>

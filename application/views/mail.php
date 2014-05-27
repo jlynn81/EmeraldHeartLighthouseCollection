@@ -74,7 +74,7 @@ $thankYou = "<p>Thank you for your Feedback!</p>"
 
         <p>Your submission has successfully been submitted, please click the below link to continue shopping</p>
 
-        <p><a href="../../index.html"> Return to Current Products</a></p>
+        <p><a href="../../index.html"> Return to Main Page</a></p>
 
 
     </section>
