@@ -1,7 +1,6 @@
 <?php
 
 $name = $_POST['submit_btn'];
-$name = $_POST['form-submit, submit_btn'];
 
 $to = "emeraldheartlc@gmail.com";
 $subject = "Customer Feedback Form Submission";

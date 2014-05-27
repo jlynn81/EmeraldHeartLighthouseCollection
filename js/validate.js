@@ -30,7 +30,7 @@
             pass = pattern.test(form.value);
 
         }else if(form == phNum){
-            pattern = /((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/;
+            pattern = ^(?:\([2-9]\d{2}\)\ ?|[2-9]\d{2}(?:\-?|\ ?))[2-9]\d{2}[- ]?\d{4}$;
             pass = pattern.test(form.value);
         }
 

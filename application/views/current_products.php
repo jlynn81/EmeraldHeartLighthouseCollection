@@ -1,4 +1,4 @@
-<?php include_once 'product_details.php' ?>
+<?php //include_once 'product_details.php' ?>
 
 
 <!DOCTYPE html>
@@ -61,7 +61,7 @@
 
 
 
-        <div class="item_list">
+        <div class="item_list" action="product_details.php">
             <div class="item">
                 <a href="../../detailProducts/mysticalCarousel.php">
                     <img src="../../css/images/product-images/unicorn1.jpg" alt="unicorn1">

@@ -89,7 +89,7 @@
             <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="3BRAGNARTYZTS">
-                <button type="submit" border="0" name="submit" >Add to Cart</button>
+                <button type="submit" value="submit" name="submit" >Add to Cart</button>
             </form>
 
 
