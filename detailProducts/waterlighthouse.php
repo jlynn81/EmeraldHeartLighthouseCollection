@@ -33,7 +33,7 @@
 
 <header>
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
     <form>
 
         <ul>
@@ -42,7 +42,7 @@
         </ul>
     </form>
 
-    <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+    <!-- MAIN NAVIGATION START -->
     <nav>
         <ul>
 
@@ -60,7 +60,7 @@
 
         </ul>
     </nav>
-    <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+    <!-- MAIN NAVIGATION END -->
 
 
 </header>
@@ -88,7 +88,7 @@
         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="HBQHK2H7NZM4J">
-            <button type="submit" border="0" name="submit" >Add to Cart</button>
+            <button type="submit" name="submit" >Add to Cart</button>
         </form>
 
 

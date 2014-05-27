@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/customer_feedback.html" afterPath="$PROJECT_DIR$/application/views/customer_feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/mail.php" afterPath="$PROJECT_DIR$/application/views/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/validate.js" afterPath="$PROJECT_DIR$/js/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/underwaterdream.php" afterPath="$PROJECT_DIR$/detailProducts/underwaterdream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detailProducts/waterlighthouse.php" afterPath="$PROJECT_DIR$/detailProducts/waterlighthouse.php" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +35,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="751" column="12" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.27262443" vertical-offset="11775" max-vertical-offset="12848">
+            <state line="751" column="12" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.0" vertical-offset="11775" max-vertical-offset="12848">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clown1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detailProducts/clown1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="51" selection-start="3662" selection-end="3662" vertical-scroll-proportion="-24.96" vertical-offset="832" max-vertical-offset="2288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waterlighthouse.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="34" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.56880736" vertical-offset="944" max-vertical-offset="2320">
               <folding />
             </state>
           </provider>
@@ -117,9 +132,7 @@
         <option value="$PROJECT_DIR$/application/views/contact.html" />
         <option value="$PROJECT_DIR$/application/views/about_us.html" />
         <option value="$PROJECT_DIR$/detailProducts/seashellwreath.php" />
-        <option value="$PROJECT_DIR$/detailProducts/underwaterdream.php" />
         <option value="$PROJECT_DIR$/application/views/current_products.php" />
-        <option value="$PROJECT_DIR$/detailProducts/waterlighthouse.php" />
         <option value="$PROJECT_DIR$/detailProducts/maskofdreams.php" />
         <option value="$PROJECT_DIR$/detailProducts/holidaywreath.php" />
         <option value="$PROJECT_DIR$/detailProducts/clown1.php" />
@@ -129,6 +142,8 @@
         <option value="$PROJECT_DIR$/js/validate.js" />
         <option value="$PROJECT_DIR$/application/views/customer_feedback.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/detailProducts/underwaterdream.php" />
+        <option value="$PROJECT_DIR$/detailProducts/waterlighthouse.php" />
       </list>
     </option>
   </component>
@@ -222,7 +237,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="detailProducts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,11 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,11 +599,6 @@
         <state line="58" column="88" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0519774" vertical-offset="882" max-vertical-offset="2336" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detailProducts/underwaterdream.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="88" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.17853108" vertical-offset="770" max-vertical-offset="2320" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/product_details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="0.27522936" vertical-offset="0" max-vertical-offset="872">
@@ -607,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="21" selection-end="21" vertical-scroll-proportion="0.018348623" vertical-offset="0" max-vertical-offset="2320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detailProducts/maskofdreams.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="47" selection-start="3359" selection-end="3359" vertical-scroll-proportion="0.4678899" vertical-offset="1032" max-vertical-offset="2320">
@@ -624,13 +623,6 @@
     <entry file="file://$PROJECT_DIR$/detailProducts/holidaywreath.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="31" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.64220184" vertical-offset="144" max-vertical-offset="2320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detailProducts/clown1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="51" selection-start="3662" selection-end="3662" vertical-scroll-proportion="0.7155963" vertical-offset="832" max-vertical-offset="2288">
           <folding />
         </state>
       </provider>
@@ -693,7 +685,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="751" column="12" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.27262443" vertical-offset="11775" max-vertical-offset="12848">
+        <state line="751" column="12" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.0" vertical-offset="11775" max-vertical-offset="12848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detailProducts/underwaterdream.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="38" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.78899086" vertical-offset="752" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detailProducts/clown1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="51" selection-start="3662" selection-end="3662" vertical-scroll-proportion="-24.96" vertical-offset="832" max-vertical-offset="2288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="34" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.56880736" vertical-offset="944" max-vertical-offset="2320">
           <folding />
         </state>
       </provider>
