@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="items">
+<html>
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,41 +33,41 @@
 
 <header>
 
-    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png"></a></h1>
+    <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
     <form>
 
         <ul>
-            <li><a href="../views/email_signup_page.html">Email Sign-up</a></li>
-            <li> <a href="../views/contact.html">Customer Care</a></li>
+            <li><a href="../application/views/email_signup_page.html">Email Sign-up</a></li>
+            <li> <a href="../application/views/contact.html">Customer Care</a></li>
         </ul>
     </form>
 
-    <!-- ------------------------------------ MAIN NAVIGATION START ---------------------------------------------->
+    <!-- MAIN NAVIGATION START -->
     <nav>
         <ul>
 
-            <li class='active'><a href='../views/whats_new.php'><span>What's New</span></a></li>
-            <li class='active has-sub'><a href='../views/current_products.php'><span>Current Products</span></a>
+            <li class='active'><a href='../application/views/whats_new.php'><span>What's New</span></a></li>
+            <li class='active has-sub'><a href='../application/views/current_products.php'><span>Current Products</span></a>
                 <ul>
-                    <li><a href='../views/current_products.php'><span>Home Decor</span></a></li>
-                    <li class='last'><a href='../views/current_products.php'><span>Books</span></a></li>
+                    <li><a href='../application/views/current_products.php'><span>Home Decor</span></a></li>
+                    <li class='last'><a href='../application/views/current_products.php'><span>Books</span></a></li>
                 </ul>
             </li>
 
-            <li class='active'><a href='../views/about_us.html'><span>About Us</span></a></li>
-            <li class="active"><a href="../views/contact.html"><span>Contact Information</span></a> </li>
-            <li class='active last'><a href='../views/customer_feedback.php'><span>Customer Feedback</span></a></li>
+            <li class='active'><a href='../application/views/about_us.html'><span>About Us</span></a></li>
+            <li class="active"><a href="../application/views/contact.html"><span>Contact Information</span></a> </li>
+            <li class='active last'><a href='../application/views/customer_feedback.html'><span>Customer Feedback</span></a></li>
 
         </ul>
     </nav>
-    <!-- ------------------------------------ MAIN NAVIGATION END ------------------------------------------------>
+    <!-- MAIN NAVIGATION END -->
 
 
 </header>
 
 <section id="product_info">
 
-    <p><a href="../views/current_products.php"> Return to Current Products</a></p>
+    <p><a href="../application/views/current_products.php"> Return to Current Products</a></p>
 
     <p><img src="../css/images/product-images/mask.jpg" alt="mask"/></p>
 
@@ -88,7 +88,7 @@
         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="AB7FHDJQDTU4G">
-            <button type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">Add to Cart</button>
+            <button type="submit" value="submit" name="submit" >Add to Cart</button>
         </form>
 
 
@@ -113,21 +113,21 @@
 
 </section>
 
-<section id="bottom_nav">
+
     <div id="subfooter">
         <ul>
-            <li><a href="../views/whats_new.php">What's New</a> </li>
-            <li><a href="../views/customer_feedback.php">Customer Feedback</a> </li>
-            <li><a href="../views/about_us.html">About Us</a> </li>
+            <li><a href="../application/views/whats_new.php">What's New</a> </li>
+            <li><a href="../application/views/customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="../application/views/about_us.html">About Us</a> </li>
             <li>Customer Service: 1-800-123-4567 </li>
             <li>Orders: 1-800-456-7890</li>
             <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
         </ul>
     </div>
-</section>
 
-<script type="text/javascript" src="../javascripts/main.js"></script>
-<script type="text/javascript" src="../javascripts/productInfo.js"></script>
+
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../js/productInfo.js"></script>
 
 <footer>
     <p>All Rights</p>

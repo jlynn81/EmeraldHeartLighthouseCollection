@@ -466,12 +466,19 @@ blockquote p{
 
 /* EMAIL SIGN-UP ------------------------------------------------------*/
 
+#sign_up{
+    color: #0F403D;
+}
+
 #sign_up h1{
     padding-top: 20px;
-    font-family: 'Oxygen', sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
     padding-bottom: 20px;
+    color: #0F403D;
+}
 
+#sign_up h2{
+    font-size: 16pt;
 }
 
 #sign_up img{
@@ -484,6 +491,16 @@ blockquote p{
     padding-top: 10px;
     margin-bottom: 10px;
 }
+
+#email_form p:first-child{
+    font-size: 10pt;
+    color: #A63417;
+}
+#email_form p{
+    padding-top: 20px;
+}
+
+
 
 
 
@@ -501,10 +518,6 @@ blockquote p{
     color: #4B706E;
     padding-bottom: 40px;
     line-height: 1.3em;
-}
-
-#feedback form{
-
 }
 
 #feedback textarea{
@@ -703,20 +716,53 @@ blockquote p{
     color: #4B706E;
 }
 
+/*Confirmation Page*/
+
+#submission_conf{
+    background: url("images/contentimages/thankyou.jpg");
+    /*opacity: .85;*/
+    text-align: center;
+}
+
+#submission_conf h1{
+    font-family: 'Alex Brush', cursive;
+    padding-bottom: 20px;
+    font-size: 52pt;
+    color: #ffffff;
+}
+
+#submission_conf p{
+    padding-bottom: 20px;
+    font-size: 16pt;
+    color: #fff;
+
+}
+
 
 
 
 
 /* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/
-#bottom_nav{
-    height: 12em;
-}
 
 #subfooter{
     background: url("images/contentimages/subfooter.jpg");
-    margin-left: -20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 8pt;
+    top: 6em;
+    left: 225px;
+    text-align: left;
+    position: relative;
     width: 1024px;
-    padding-bottom: 10px;
+    align-content: center;
+    padding: 0 36px 20px 36px;
+}
+
+#subfooter ul{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    padding-left: 200px;
+
 }
 
 #subfooter ul li{
@@ -734,12 +780,13 @@ footer{
     position: relative;
     width: 100%;
     clear: both;
-    padding: 0 36px 20px 36px;
+    padding: 20px 36px 20px 36px;
     text-align: center;
     color: #718C46;
     opacity: .5;
     font-family: 'Oxygen', sans-serif;
     font-size: 8pt;
+    top: 6em;
 }
 footer p {
     display: inline;

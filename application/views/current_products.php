@@ -1,4 +1,4 @@
-<?php include_once 'product_details.php' ?>
+<?php //include_once 'product_details.php' ?>
 
 
 <!DOCTYPE html>
@@ -10,20 +10,20 @@
     <title>Emerald Heart Lighthouse Collection</title>
 
 <!--    Included Third Party Library and Javascript and CSS-->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap-responsive.min.css">
 
     <!-- Included Application specific CSS and Javascript -->
-    <script type="text/javascript" src="../javascripts/main.js"></script>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
 
 </head>
 
 <body>
     <header>
 
-        <h1><a href="../index.html"><img src="../css/images/contentimages/logo.png" alt=""></a></h1>
+        <h1><a href="../../index.html"><img src="../../css/images/contentimages/logo.png" alt=""></a></h1>
         <form>
 
             <ul>
@@ -46,7 +46,7 @@
 
                 <li class='active'><a href='about_us.html'><span>About Us</span></a></li>
                 <li class="active"><a href="contact.html"><span>Contact Information</span></a> </li>
-                <li class='active last'><a href='customer_feedback.php'><span>Customer Feedback</span></a></li>
+                <li class='active last'><a href='customer_feedback.html'><span>Customer Feedback</span></a></li>
 
             </ul>
         </nav>
@@ -61,45 +61,45 @@
 
 
 
-        <div class="item_list">
+        <div class="item_list" action="product_details.php">
             <div class="item">
-                <a href="../detailProducts/mysticalCarousel.php">
-                    <img src="../css/images/product-images/unicorn1.jpg" alt="unicorn1">
+                <a href="../../detailProducts/mysticalCarousel.php">
+                    <img src="../../css/images/product-images/unicorn1.jpg" alt="unicorn1">
                     <p id="product_name">Mystical Carousel Unicorn</p>
                     <p id="product_amount">$40.00</p>
                 </a>
             </div>
             <div class="item1">
-                <a href="../detailProducts/clown1.php">
-                    <img src="../css/images/product-images/clown1.jpg" alt="clown1">
+                <a href="../../detailProducts/clown1.php">
+                    <img src="../../css/images/product-images/clown1.jpg" alt="clown1">
                     <p id="product_name1">Star Clown</p>
                     <p id="product_amount1">$15.00</p>
                 </a>
             </div>
             <div class="item2">
-                <a href="../detailProducts/holidaywreath.php">
-                    <img src="../css/images/product-images/HolidayWreath.jpg" alt="holidaywreath">
+                <a href="../../detailProducts/holidaywreath.php">
+                    <img src="../../css/images/product-images/HolidayWreath.jpg" alt="holidaywreath">
                     <p id="product_name2">Holiday Wreath</p>
                     <p id="product_amount2">$50.00</p>
                 </a>
             </div>
             <div class="item3">
-                <a href="../detailProducts/waterlighthouse.php">
-                    <img src="../css/images/product-images/waterlighthouse.jpg" alt="waterlighthouse">
+                <a href="../../detailProducts/waterlighthouse.php">
+                    <img src="../../css/images/product-images/waterlighthouse.jpg" alt="waterlighthouse">
                     <p id="product_name3">Lighthouse Hurricane Statue</p>
                     <p id="product_amount3">$175.00</p>
                 </a>
             </div>
             <div class="item4">
-                <a href="../detailProducts/underwaterdream.php">
-                    <img src="../css/images/product-images/underwaterdream.jpg" alt="underwaterdream">
+                <a href="../../detailProducts/underwaterdream.php">
+                    <img src="../../css/images/product-images/underwaterdream.jpg" alt="underwaterdream">
                     <p id="product_name4">Under Water Dream</p>
                     <p id="product_amount4">$150.00</p>
                 </a>
             </div>
             <div class="item5">
-                <a href="../detailProducts/maskofdreams.php">
-                    <img src="../css/images/product-images/mask.jpg" alt="mask">
+                <a href="../../detailProducts/maskofdreams.php">
+                    <img src="../../css/images/product-images/mask.jpg" alt="mask">
                     <p id="product_name5">Mystical Mask of Dreams</p>
                     <p id="product_amount5">$200.00</p>
                 </a>
@@ -127,23 +127,23 @@
 
     </section>
 
+    <div id="subfooter">
+        <ul>
+            <li><a href="whats_new.php">What's New</a> </li>
+            <li><a href="customer_feedback.html">Customer Feedback</a> </li>
+            <li><a href="about_us.html">About Us</a> </li>
+            <li>Customer Service: 1-800-123-4567 </li>
+            <li>Orders: 1-800-456-7890</li>
+            <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
+        </ul>
+    </div>
 
 
-    <section id="bottom_nav">
-        <div id="subfooter">
-            <ul>
-                <li><a href="whats_new.php">What's New</a> </li>
-                <li><a href="customer_feedback.php">Customer Feedback</a> </li>
-                <li><a href="about_us.html">About Us</a> </li>
-                <li>Customer Service: 1-800-123-4567 </li>
-                <li>Orders: 1-800-456-7890</li>
-                <li>Email:<a href="mailto:emeraldheartlc@gmail.com"> EmeraldHeartLC@gmail.com</a> </li>
-            </ul>
-        </div>
-    </section>
 
-    <script type="text/javascript" src="../javascripts/main.js"></script>
-    <script type="text/javascript" src="../javascripts/productInfo.js"></script>
+
+
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <script type="text/javascript" src="../../js/productInfo.js"></script>
 
     <footer>
         <p>All Rights</p>
