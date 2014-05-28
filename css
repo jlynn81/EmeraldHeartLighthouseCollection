@@ -1,7 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 
+body{
+	margin: 0 auto;
+	padding: 20px;
+}
+
 h1{
-  font-family: 'Gloria Hallelujah', cursive;   
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 48pt;
+}
 
+nav ul{
+	list-style-type: none;
+}
 
+nav ul li{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 16pt;
+}
+
+nav ol{
+	list-style-type: circle;
 }
