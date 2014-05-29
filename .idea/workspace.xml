@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="" />
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +53,7 @@
       <file leaf-file-name="waterlighthouse.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="34" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.56880736" vertical-offset="944" max-vertical-offset="2320">
+            <state line="90" column="34" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.716763" vertical-offset="944" max-vertical-offset="2320">
               <folding />
             </state>
           </provider>
@@ -158,7 +152,7 @@
     <option name="x" value="407" />
     <option name="y" value="22" />
     <option name="width" value="1513" />
-    <option name="height" value="1015" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -369,7 +363,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="407" y="22" width="1513" height="1015" extended-state="0" />
+    <frame x="407" y="22" width="1513" height="835" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -669,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/detailProducts/waterlighthouse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="34" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.56880736" vertical-offset="944" max-vertical-offset="2320">
+        <state line="90" column="34" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.716763" vertical-offset="944" max-vertical-offset="2320">
           <folding />
         </state>
       </provider>
