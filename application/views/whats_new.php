@@ -61,6 +61,24 @@
 
         <blockquote>"It's All About The Heart and Soul"<p>~Sue Frazier</p></blockquote>
 
+        <div id="side_nav">
+            <h2>Themes</h2>
+            <ul>
+                <li><a href="current_products.php"> Nautical</a></li>
+                <li><a href="current_products.php"> Fantasy</a> </li>
+                <li><a href="current_products.php"> Whimsical</a> </li>
+                <li><a href="current_products.php"> Nature</a> </li>
+                <li><a href="current_products.php"> 5 Elements</a> </li>
+                <li><a href="current_products.php"> Spiritual</a> </li>
+            </ul>
+            <br>
+            <h2>Current Products</h2>
+            <ul>
+                <li><a href="current_products.php"> Home Decor</a> </li>
+                <li><a href="current_products.php"> Books</a> </li>
+            </ul>
+        </div>
+
         <div class="item_list">
             <div class="item">
                 <a href="../../detailProducts/mysticalCarousel.php">
@@ -87,23 +105,7 @@
 
         </div>
 
-        <div id="side_nav">
-            <h2>Themes</h2>
-            <ul>
-                <li><a href="current_products.php"> Nautical</a></li>
-                <li><a href="current_products.php"> Fantasy</a> </li>
-                <li><a href="current_products.php"> Whimsical</a> </li>
-                <li><a href="current_products.php"> Nature</a> </li>
-                <li><a href="current_products.php"> 5 Elements</a> </li>
-                <li><a href="current_products.php"> Spiritual</a> </li>
-            </ul>
-            <br>
-            <h2>Current Products</h2>
-            <ul>
-                <li><a href="current_products.php"> Home Decor</a> </li>
-                <li><a href="current_products.php"> Books</a> </li>
-            </ul>
-        </div>
+
 
     </section>
 

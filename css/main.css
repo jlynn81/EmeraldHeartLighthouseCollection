@@ -415,8 +415,9 @@ nav ul ul li.has-sub:hover::after {
 
 /* SECTION CONTENT AREA */
 section {
-    height: 700px;
+    height: 800px;
     padding-top: 5em;
+    margin-bottom: 100px;
 }
 
 #customer_feedback_form{
@@ -593,13 +594,12 @@ blockquote p{
 }
 
 .item_list{
-    display: inline-block;
+    /*display: inline-block;*/
     float: right;
-    font-family: 'Oxygen',sans-serif;
+    /*font-family: 'Oxygen',sans-serif;*/
     font-size: 10pt;
-    position: relative;top: 5em;
-    right: -50px;
-    width: 675px;
+    position: relative;top: -25em;
+    /*right: -50px;*/
 }
 
 .item img, .item1 img, .item2 img, .item3 img, .item4 img, .item5 img{
@@ -616,8 +616,7 @@ blockquote p{
 /* PAGE SIDE NAVIGATION START -----------------------------------------*/
 #side_nav{
     font-family: 'Oxygen', sans-serif;
-    padding-top: 5em;
-    width: 245px;
+    padding-top: 5em; padding-left: 2em;
 }
 
 #side_nav h2{
