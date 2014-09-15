@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402f00b2-57b0-40ed-8464-5721f1f68d96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/basket-empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/basket-full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/chat-support.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/checklist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/checkout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/contact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/credit-cards.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/delivery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/downloads.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/empty-cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/full-cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/gifts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/loaded-truck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final Site Database Files/product_database_2014-05-27.sql.bz2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/secure-payment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/shop-closed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/shop-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/shopping-bag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/telephone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/icons/wallet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final Site Database Files/Products.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final Site Database Files/email_database.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/generic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final Site Database Files/product_database_2014-05-27.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Final Site Database Files/product_details.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jlynn81.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jlynn81.xml" />
     </list>
     <ignored path="EmeraldHeartLighthouseCollection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,10 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="67" selection-end="67" vertical-scroll-proportion="0.09248555" vertical-offset="0" max-vertical-offset="1776">
+            <state line="4" column="26" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="1776">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="63" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.9017341" vertical-offset="0" max-vertical-offset="752">
               <folding />
             </state>
           </provider>
@@ -113,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jquery-ui-1.10.4.custom/development-bundle/themes/base/jquery-ui.css" />
         <option value="$PROJECT_DIR$/detailProducts/clown1.html" />
         <option value="$PROJECT_DIR$/views/current_products.html" />
         <option value="$PROJECT_DIR$/javascripts/main.js" />
@@ -164,6 +137,7 @@
         <option value="$PROJECT_DIR$/detailProducts/underwaterdream.php" />
         <option value="$PROJECT_DIR$/detailProducts/waterlighthouse.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -410,16 +384,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
+        <state line="4" column="26" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="1776">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="67" selection-end="67" vertical-scroll-proportion="0.09248555" vertical-offset="0" max-vertical-offset="1776">
+        <state line="39" column="63" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.9017341" vertical-offset="0" max-vertical-offset="752">
           <folding />
         </state>
       </provider>
