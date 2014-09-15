@@ -8,10 +8,10 @@ body{
 }
 /* SITE STRUCTURE -----------------------------------------------------*/
 header, section, footer{
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
     position: relative;
+    padding-top: 20px;
 
 }
 
@@ -33,12 +33,11 @@ a:active{
 header{
     background-image: url("images/contentimages/headerbackground.gif");
     background-size: 75%;
-    padding-top: 26px;
 }
 
 header h1{
-    width: 536px;
     float: left;
+    padding-left: 20px;
 }
 
 header > ul{
@@ -60,7 +59,8 @@ header p{
 header form{
     float: right;
     position: relative;
-    top: 60px;
+    top: 3.5em;
+    padding-right: 20px;
 }
 
 header form li{
@@ -145,10 +145,8 @@ button:hover{
 /* BEGIN HEADER NAVIGATION INFORMATION ---------------------------------------*/
 nav {
     clear: both;
-    position: relative;left: -20px;
     height: 44px;
     background-image: url("images/contentimages/nav_bkg.gif");
-    width: 1024px;
     border: 1px #ff9600;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -501,9 +499,6 @@ blockquote p{
 }
 
 
-
-
-
 /* CUSTOMER FEEDBACK INFORMATION START --------------------------------*/
 
 #feedback h1, #account_info h1{
@@ -738,23 +733,16 @@ blockquote p{
 
 }
 
-
-
-
-
 /* BEGIN SUBFOOTER AND FOOTER INFORMATION CSS FORMATTING --------------*/
 
 #subfooter{
     background: url("images/contentimages/subfooter.jpg");
     font-family: 'Oxygen', sans-serif;
     font-size: 8pt;
-    top: 6em;
-    left: 225px;
     text-align: left;
     position: relative;
-    width: 1024px;
     align-content: center;
-    padding: 0 36px 20px 36px;
+    padding: 10px 36px 20px;
 }
 
 #subfooter ul{
@@ -777,8 +765,6 @@ blockquote p{
 }
 
 footer{
-    position: relative;
-    width: 100%;
     clear: both;
     padding: 20px 36px 20px 36px;
     text-align: center;
@@ -786,8 +772,8 @@ footer{
     opacity: .5;
     font-family: 'Oxygen', sans-serif;
     font-size: 8pt;
-    top: 6em;
 }
+
 footer p {
     display: inline;
 }
